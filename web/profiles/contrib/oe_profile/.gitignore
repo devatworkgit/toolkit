@@ -1,0 +1,12 @@
+vendor
+node_modules
+build
+npm-debug.log
+grumphp.yml
+composer.lock
+package-lock*
+behat.yml
+runner.yml
+phpunit.xml
+.idea
+docker-compose.yml

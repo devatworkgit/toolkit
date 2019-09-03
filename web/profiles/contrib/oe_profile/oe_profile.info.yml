@@ -1,0 +1,32 @@
+name: OpenEuropa Profile
+type: profile
+description: 'OpenEuropa installation profile.'
+project: oe_profile
+version: VERSION
+core: 8.x
+
+dependencies:
+  - node
+  - block
+  - config
+  - menu_link_content
+  - datetime
+  - block_content
+  - editor
+  - image
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - toolbar
+  - file
+  - filter
+  - user
+  - views
+  - oe_theme_helper
+
+themes:
+  - seven
+  - oe_theme

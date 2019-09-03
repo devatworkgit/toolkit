@@ -1,0 +1,67 @@
+default:
+  suites:
+    default:
+      paths:
+        - %paths.base%/tests/features
+      contexts:
+        - Drupal\DrupalExtension\Context\DrupalContext
+        - Drupal\DrupalExtension\Context\MarkupContext
+        - Drupal\Tests\oe_theme\Behat\DrupalContext
+        - Drupal\Tests\oe_theme\Behat\MinkContext
+        - Drupal\Tests\oe_theme\Behat\OeThemeTestContext
+        - Drupal\Tests\oe_theme\Behat\CleanupContext
+        - OpenEuropa\Behat\TransformationContext:
+            elements:
+              about dropdown menu: "#nav-menu-expandable-group-2 .ecl-navigation-menu__links"
+              breadcrumb: "nav.ecl-breadcrumb"
+              corporate footer: "footer.ecl-footer div.ecl-footer__corporate"
+              language switcher: ".ecl-language-list"
+              language switcher link: ".ecl-lang-select-sites__link .ecl-lang-select-sites__label"
+              language switcher overlay: ".ecl-dialog__body"
+              logo: "a.ecl-logo"
+              page header: ".ecl-page-header__body"
+              priorities dropdown menu: "#nav-menu-expandable-group-3 .ecl-navigation-menu__links"
+              search form: ".ecl-search-form"
+              sites switcher: ".ecl-site-switcher--header"
+              dropdown content: ".ecl-link-block__list"
+              list item image: ".ecl-list-item__primary"
+            pages:
+              user registration: "/user/register"
+              ECL components overview: "/en/components"
+              ECL dropdown component: "components/dropdown"
+              recent content: "/en/node"
+              image creation: "/en/media/add/image"
+              content management: "/en/admin/content"
+  extensions:
+    Drupal\MinkExtension:
+      goutte: ~
+      ajax_timeout: 10
+      browser_name: 'chrome'
+      javascript_session: 'selenium2'
+      selenium2:
+        wd_host: '${selenium.host}:${selenium.port}/wd/hub'
+        capabilities: { "browser": "chrome", "version": "*" }
+      base_url: "${drupal.base_url}"
+      files_path: "%paths.base%/tests/fixtures/"
+    Drupal\DrupalExtension:
+      api_driver: "drupal"
+      drupal:
+        drupal_root: "build"
+      region_map:
+        about dropdown menu: "#nav-menu-expandable-group-2"
+        header: ".ecl-site-header"
+        footer: "footer.ecl-footer"
+        language dialog: ".ecl-dialog"
+        language switcher: ".ecl-language-list"
+        language page switcher: ".ecl-page-header .ecl-lang-select-page"
+        selected language in the language page switcher: ".ecl-page-header .ecl-lang-select-page .ecl-lang-select-page__option--is-selected"
+        unavailable languages in the language page switcher: ".ecl-page-header .ecl-lang-select-page .ecl-lang-select-page__unavailable"
+        navigation: ".ecl-navigation-menu"
+        page: "body"
+        page header: ".ecl-page-header"
+        page header site identity: ".ecl-page-header__identity"
+        page header intro: ".ecl-page-header__intro"
+        page header meta: ".ecl-meta--header"
+        priorities dropdown menu: "#nav-menu-expandable-group-3"
+  formatters:
+    progress: ~

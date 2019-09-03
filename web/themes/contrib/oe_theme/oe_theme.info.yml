@@ -1,0 +1,51 @@
+name: OpenEuropa Theme
+type: theme
+description: OpenEuropa base theme.
+package: OpenEuropa
+core: 8.x
+
+libraries:
+  - oe_theme/base
+  - oe_theme/style
+
+base theme: stable
+
+regions:
+  site_top_bar: "Site top bar"
+  site_header: "Site header"
+  page_header: "Page header"
+  navigation: "Navigation"
+  content: "Content"
+  footer: "Footer"
+
+config_devel:
+  install:
+    - image.style.oe_theme_list_item
+    - image.style.oe_theme_list_item_featured
+    - image.style.oe_theme_list_item_2x
+    - image.style.oe_theme_list_item_featured_2x
+    - image.style.oe_theme_medium_2x_no_crop
+    - image.style.oe_theme_medium_no_crop
+    - image.style.oe_theme_small_2x_no_crop
+    - image.style.oe_theme_small_no_crop
+    - responsive_image.styles.oe_theme_main_content
+  optional:
+    - block.block.oe_theme_corporate_footer
+    - block.block.oe_theme_language_switcher
+    - block.block.oe_theme_main_navigation
+    - block.block.oe_theme_main_page_content
+    - block.block.oe_theme_page_header
+    - block.block.oe_theme_search_form
+    - block.block.oe_theme_site_branding
+    - block.block.oe_theme_tabs
+    - block.block.oe_theme_corporate_footer
+    - core.entity_view_display.media.av_portal_photo.oe_theme_main_content
+    - core.entity_view_display.media.av_portal_video.oe_theme_main_content
+    - core.entity_view_display.media.image.oe_theme_main_content
+    - core.entity_view_display.media.remote_video.oe_theme_main_content
+    - core.entity_view_mode.media.oe_theme_main_content
+
+# Information added by OpenEuropa packaging script on 2019-08-19 at 13:54:31.
+project: oe_theme
+version: c7ef3ddec3cd6ed5f9f506f01dad5ddb2e7075b8
+datestamp: 1566215671

@@ -1,0 +1,7 @@
+name: 'LESS CSS Preprocessor'
+type: module
+description: 'Allows themes or modules to use LESS files.'
+core: 8.x
+package: Other
+
+configure: less.admin_settings

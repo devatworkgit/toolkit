@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+function morethanfood_preprocess_html(array &$variables) {
+  if ($node = \Drupal::request()->attributes->get('node')) {
+    $variables['node_id'] = $variables['attributes']['class'][] = 'page-node-' . $node->id();
+  }
+  $current_path = \Drupal::service('path.current')->getPath();
+  $path_alias = \Drupal::service('path.alias_manager')->getAliasByPath($current_path);
+  $path_alias = ltrim($path_alias, '/');
+  $variables['page_alias'] = $variables['attributes']['class'][] = \Drupal\Component\Utility\Html::cleanCssIdentifier($path_alias);
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  $variables['lang'] = $variables['language'] = 'lang-' . $language;
+}

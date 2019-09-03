@@ -1,0 +1,27 @@
+fonts:
+  css:
+    theme:
+      'https://fonts.googleapis.com/css?family=Khand:300,400,700': { type: external }
+      'https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i': { type: external }
+framework:
+  css:
+    theme:
+      less/style.less: {} 
+  js:
+    bootstrap/js/affix.js: {}
+    bootstrap/js/alert.js: {}
+    bootstrap/js/button.js: {}
+    bootstrap/js/carousel.js: {}
+    bootstrap/js/collapse.js: {}
+    bootstrap/js/dropdown.js: {}
+    bootstrap/js/modal.js: {}
+    bootstrap/js/tooltip.js: {}
+    bootstrap/js/popover.js: {}
+    bootstrap/js/scrollspy.js: {}
+    bootstrap/js/tab.js: {}
+    bootstrap/js/transition.js: {}
+    js/custom.js: {}
+    js/header-scroll.js: {}
+  dependencies: 
+    - core/jquery
+    - core/drupal.ajax

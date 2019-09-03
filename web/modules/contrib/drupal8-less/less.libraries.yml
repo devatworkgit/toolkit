@@ -1,0 +1,6 @@
+less-watch:
+  js:
+    scripts/less.watch.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax

@@ -1,0 +1,26 @@
+From cd59f49625d5b3a2b6bbd074aa0a3ae90de52321 Mon Sep 17 00:00:00 2001
+From: ionmacaria <macaria_ion@yahoo.com>
+Date: Fri, 1 Sep 2017 00:48:10 +0300
+Subject: [PATCH] debugging css aggregation
+
+---
+ less.module | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/less.module b/less.module
+index b50adb9..de142e4 100644
+--- a/less.module
++++ b/less.module
+@@ -131,7 +131,8 @@ function _less_process_file($source_file_path, $process_only = FALSE) {
+     'source_file_path' => $source_file_path,
+   ];
+ 
+-  if ($config->get('developer_options.devel')) {
++  $config_css = \Drupal::config('system.performance')->get('css');
++  if ($config->get('developer_options.devel') && !$config_css['preprocess']) {
+     if ($process_only) {
+       return $return + [
+         'computed_style' => $computed_style,
+-- 
+2.11.0.windows.3
+

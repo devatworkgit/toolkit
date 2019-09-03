@@ -1,0 +1,37 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'morethanfood'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  section_top: 'Top section'
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  banner: 'Banner region'
+  navigation_bottom: 'Navigation Bottom'
+  header: 'Top Bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  section1: 'Section 1'
+  section2: 'Section 2'
+  section_gray: 'Section Gray'
+  section2_5: 'Section 2.5'
+  section3: 'Section 3'
+  section4: 'Section 4'
+  subscribe: 'Section Subscribe'
+  footer: 'Footer'
+  footer_bottom: 'Footer Bottom'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  copyright: 'Copyright'
+
+libraries-extend:
+  bootstrap/framework:
+    - morethanfood/framework
+    - morethanfood/fonts

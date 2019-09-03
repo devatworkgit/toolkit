@@ -1,0 +1,1486 @@
+#section-gray {
+	@media(min-width: @screen-sm-min) {
+	  background: linear-gradient(90deg, #ebebeb 40%, rgba(0, 0, 0, 0.035) 100%);
+	}
+  padding: 50px 15px;
+}
+#section-3 {
+	padding: 0px 15px;
+}
+#subscribe {
+	background-color: #eee;
+  padding: 25px 15px;
+}
+.main-region {
+  width: 100%;
+  float: left;
+}
+.path-frontpage {
+	#section-1 {
+	  margin-top: -5px;
+	  @media(min-width: @screen-sm-min){
+	  	//background: linear-gradient(90deg, #EDE2DC 50%, #EDC8B8 50%);
+	  	.container {
+		    width: 100%;
+		    max-width: 1920px;
+		    padding: 0;
+	  	}
+		}
+	}
+	#section-2 {
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: cover;
+		background-image: url('/web/themes/contrib/morethanfood/images/section2-bg-2.png');
+	}
+	#section-3 {
+		padding: 0px 15px;
+	}
+	.main-container {
+		display: none;
+	}
+}
+#section-3 {
+	.container {
+		position: relative;
+	}
+}
+.page-node-6 {
+	.main-container section {
+		//display: none;
+	}	
+}
+#block-itsauthentic,
+#block-itssafe,
+#block-itsquality {
+  font-family: 'PT Sans';
+  padding-top: 220px;
+  padding-bottom: 80px;
+  @media(min-width: @screen-sm-min){
+    min-height: 950px;
+	}
+  @media(min-width: @screen-md-min){
+    min-height: 820px;
+	}
+	@media(min-width: @screen-lg-min){
+    min-height: 770px;
+	}
+	@media(min-width: 1800px){
+    min-height: 700px;
+	}
+	.field--name-body {
+		width: 80%;
+		margin-left: 10%;
+		font-weight: bold;
+	}
+  .orange-btn {
+  	position: absolute;
+    bottom: 25px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  	a {
+      max-width: 200px;
+	    margin: 0 auto;
+	    padding: 5px 30px;
+  		//min-width: 200px;
+  		text-align: center;
+  		display: block;
+  	}
+  }
+	.block-title {
+		text-align: center;
+		font-size: 40px;
+		@media(min-width: @screen-sm-min) {
+			font-size: 60px;
+		}
+	}
+	.image {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    left: 0px;
+		img {
+	    max-height: 220px;
+ 		  margin: 0 auto;
+ 		  width: 220px;
+	    height: 220px;
+	    border-radius: 50%;
+	    object-fit: cover;
+	    object-position: center;
+		}
+	}
+}
+#block-itsauthentic {
+	background-color: #EDE2DC;
+}
+#block-itssafe {
+	background-color: #BBB2B5;
+}
+#block-itsquality {
+	background-color: #EDC8B8;
+}
+#block-followus {
+	font-size: 18px;
+  font-weight: bold;
+	padding: 80px 15px;
+  .field {
+    line-height: 18px;
+  }
+  .orange-btn {
+  	width: 100%;
+		text-align: center;
+		@media(min-width: @screen-sm-min){
+			width: auto;
+		}
+  	a {
+  		display: block;
+  	}
+  }
+}
+#block-instagramfeedsblock {
+	padding: 15px;
+	#instawidget_instagram {
+		.instawidget_instagram_header {
+			display: none;
+    }
+    #insta_load {
+      display: none;
+      .insta_follow_btn {
+        display: none;
+      }
+      .insta_load_btn {
+        padding: 10px 35px;
+        background-color: #2D7F27;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: Khand, Arial ,serif;
+        font-size: 21px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: 400;
+      }
+    }
+		#insta_images {
+			.insta_item  {
+        @media(min-width: 641px){
+          width: 33.333333%; 
+        }
+				.insta_photo_wrap {
+          overflow: hidden;
+          max-width: 225px;
+          max-height: 225px;
+					a.insta_photo {
+						transform: scale(1);
+				    transition: all 0.4s ease-in-out;
+						&:hover {
+							transform: scale(1.1);
+					    transition: all 0.4s ease-in-out;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#block-followuspicture {
+	padding: 50px 15px;
+}
+#block-socialmedialinks {
+  position: absolute;
+  bottom: 0px;
+  left: 250px;
+}
+#block-simplenewssubscription {
+	@media(min-width: @screen-md-min){
+		padding: 0;
+	}
+	.block-title {
+		float: left;
+    width: auto;
+    padding-right: 40px;
+	}
+	form {
+		float: left;
+		width: 70%;
+    margin: 20px 0;
+		#edit-mail-wrapper {
+	    width: 65%;
+   	  float: left;
+			.control-label {
+				display: none;
+			}
+		}
+		.form-actions {
+			width: 35%;
+			float: right;
+			text-align: right;
+			#edit-subscribe {
+        padding: 10px 80px;
+		    background-color: #de5c28;
+		    color: #fff;
+        margin-right: 0;
+		    text-transform: uppercase;
+		    font-family: Khand, Arial, serif;
+		    font-size: 20px;
+		    border-radius: 25px;
+		    text-decoration: none;
+		    &:hover, &:focus, &:active {
+		    	box-shadow: inset 0 3px 5px rgba(222, 92, 40, 0.75);
+    			background-color: #de6b28;
+		    }
+			}
+		}
+	}
+}
+#block-agricultureruraldevelopment {
+	padding: 50px 0;
+	position: relative;
+	.block-title {
+		font-size: 40px;
+		@media(min-width: @screen-sm-min){
+			font-size: 50px;
+			max-width: 50%;
+		}
+		@media(min-width: @screen-md-min){
+			font-size: 81px;
+		}
+	}
+	@media(min-width: @screen-sm-min){
+		&:after {
+	    content: "";
+	    background-image: url(/web/themes/contrib/morethanfood/images/agriculture2.png);
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    left: 50%;
+	    right: 0;
+	    bottom: 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    z-index: -1;
+	    background-position: center;
+	    width: 50%;
+		}
+	}
+}
+#block-visiteuropeancommission {
+	.eu-flag {
+		float: left;
+		margin-right: 25px;
+		margin-top: 10px;
+	}
+	.content {
+		.title {
+	    font-size: 50px;
+    	margin-top: 0;
+		}
+	}
+}
+#block-webform {
+	.block-title {
+		margin-bottom: 0;
+	}
+	.webform-submission-keep-me-posted-form {
+		#edit-i-am-a--wrapper {
+			padding-left: 0;
+			margin-top: 25px;
+			legend {
+		    font-size: 35px;
+	    	font-family: 'PT Sans';
+  	    color: #5a5a5a;
+  	    border-bottom: 0;
+			}
+			#edit-i-am-a {
+				width: 100%;
+				.form-item {
+					.control-label {
+						input {
+							display: none;
+						}
+						background-image: url('/web/themes/contrib/morethanfood/images/empty-circle.png');
+				    background-repeat: no-repeat;
+				    background-size: 25px;
+				    padding-left: 35px;
+				    margin-bottom: 15px;
+				    font-size: 20px;
+				    font-family: 'PT Sans';
+		        color: #5a5a5a;
+				    &.checked {
+				    	background-image: url('/web/themes/contrib/morethanfood/images/full-circle.png');
+				    }
+					}
+				}
+			}
+		}
+		.form-type-email {
+	    margin-top: -65px;
+		}
+		#edit-actions {
+			width: 50%;
+	    float: left;
+	    padding: 0 15px;
+	    #edit-submit {
+	    	padding: 7px 35px;
+		    background-color: #de5c28;
+		    color: #fff;
+		    text-transform: uppercase;
+		    font-family: Khand, Arial, serif;
+		    font-size: 20px;
+		    border-radius: 25px;
+		    text-decoration: none;
+		    min-width: 230px;
+    		border: none;
+		    &:hover, &:focus, &:active {
+		    	box-shadow: inset 0 3px 5px rgba(222, 92, 40, 0.75);
+		    	background-color: rgba(222, 107, 40, 1);
+		    	color: #fff;
+		    }
+	    }
+		}
+	}
+}
+.discover {
+	article.page {
+		display: none;
+	}
+	.page-header {
+		color: #5a5a5a;
+    width: 50%;
+    padding-left: 15px;
+	}
+	.view-discover-eu-products {
+		margin: 50px 0;
+    width: 100%;
+    float: left;
+		.view-content {
+			.views-row {
+		    margin: 30px 0;
+		    .wrapper {
+		    	.content {
+		    		margin-top: 25px; 
+		    		@media(min-width: @screen-sm-min){
+							margin-top: 0; 
+							padding-left: 30px;
+						}
+		    		.title {
+		    			margin-top: 0;
+		    			color: #2D7F27;
+		    		}
+		    		.body {
+    			    font-weight: bold;
+		    		}
+		    		.orange-btn {
+    			    margin: 35px 0 0;
+		    		}
+		    	}
+		    }
+			}
+		}
+	}
+}
+#block-europeanqualityschemes {
+  background-color: #ecf4ec;
+  padding: 15px;
+}
+.product-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 3px solid #fff;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+  img {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+  }
+  &:hover {
+    img {
+      transition: all 0.3s ease-in-out;
+      transform: scale(1.1);
+    }
+  }
+}
+.about.page-node-type-page {
+	.wrapper {
+		.title {
+			font-weight: normal;
+			color: #fff;
+		}
+	}
+	.main-region {
+	  position: relative;
+	  @media(min-width: @screen-sm-min) {
+	  	background: linear-gradient(0deg, #ebebeb 80%, rgba(255, 255, 255, 0.5) 100%);
+	  	margin-top: -150px;
+	  }
+	}
+	.title {
+		font-size: 45px;
+  	line-height: normal;
+  	color: #2D7F27;
+	}
+	.eu-flag {
+  	img {
+  		margin-top: 30px;
+  	}
+  }
+}
+.b2b.page-node-type-page,
+.about.page-node-type-page {
+	.main-region {
+		article.page h2 {
+	  	font-size: 45px;
+	  	line-height: 1;
+	    color: #2D7F27;
+	    @media(min-width: @screen-sm-min) {
+	    	line-height: normal;
+	    }
+	  }
+	}
+}
+.follow-us,
+.get-in-touch {
+	#block-views-block-basic-page-banner-block-1 {
+		.title {
+			transform: translateY(200%);
+		}	
+	}
+	#block-webform {
+		margin: 50px 0;
+		.webform-submission-contact-us-form  {
+	    width: 100%;
+    	float: left;
+			#edit-processed-text {
+		    margin: 50px 0;
+				p {
+					width: 45%;
+			    font-family: 'PT Sans';
+			    font-size: 20px;
+				}
+			}
+			#edit-i-am-a--wrapper,
+			#edit-i-am-a-check--wrapper {
+				margin-bottom: 15px;
+				@media(min-width: @screen-sm-min){
+					margin-bottom: 0;
+				}
+				legend {
+					font-weight: bold;
+				}
+				.fieldset-wrapper {
+					.form-item {
+						width: 50%;
+						float: left;
+					}
+					.radio + .radio, .checkbox + .checkbox {
+						margin-top: 10px;
+					}
+				}
+			}
+			#edit-flexbox {
+				.form-item {
+					margin-bottom: 19px;
+				}
+			}
+			.form-item-name {
+				@media(min-width: @screen-sm-min) {
+					margin-top: 55px;
+				}
+			}
+			#edit-privacy {
+		    float: right;
+   		  margin: 25px 0;
+   		  margin-top: 150px;
+			}
+			#edit-message {
+		    padding: 20px;
+			}
+			#edit-actions {
+		    float: right;
+		    padding: 0 15px;
+		    margin: 25px 0;
+        margin-top: 150px;
+		    #edit-actions-submit {
+		    	padding: 7px 35px;
+	        background-color: #2D7F27;
+			    color: #fff;
+			    text-transform: uppercase;
+			    font-family: Khand, Arial, serif;
+			    font-size: 20px;
+			    border-radius: 25px;
+			    text-decoration: none;
+	    		border: none;
+	    		width: 100%;
+	    		@media(min-width: @screen-md-min) {
+	    			min-width: 230px;
+	    		}
+			    &:hover {
+			    	background-color: #6ca567;
+  					color: #fff;
+			    }
+			    &:focus, &:active {
+			    	box-shadow: inset 0 3px 5px rgba(45, 127, 39, 0.75);
+			    	background-color: #6ca567;
+  					color: #fff;
+			    }
+		    }
+			}
+			.captcha {
+		    text-align: right;
+		    width: 100%;
+		    display: block;
+		    float: left;
+		    margin-top: -225px;
+		    .g-recaptcha {
+		    	@media(min-width: @screen-sm-min) {
+	    	    float: right;
+	    			transform: translateX(-100%);
+	    		}
+		    }
+			}
+		}
+	}
+}
+.watch,
+.offer,
+.experience,
+.more-than-trip,
+.discover,
+.b2b {
+	#section-1 {
+		padding: 50px 15px;
+		.block {
+			padding: 50px 0;
+			font-weight: bold;
+		}
+	}
+}
+/*#block-newslettermailchimp {
+	padding-bottom: 50px;
+	@media(min-width: @screen-sm-min) {
+		padding-bottom: 0px;
+	}
+	#mc_embed_signup {
+		form {
+			padding: 0;
+			#mc_embed_signup_scroll {
+				& > h2 {
+					font-size: 60px;
+			    border: none;
+			    color: #2D7F27;
+			    @media(min-width: @screen-sm-min) {
+	    	    font-size: 70px;
+  					line-height: 70px;
+			    }
+				}
+			}
+			input[type="email"],
+			input[type="text"] {
+		    border-radius: 25px;
+		    height: 50px;
+		    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.25);
+		    border: none;
+		    padding-left: 25px;
+		    padding-right: 25px;
+		    font-size: 18px;
+		    font-weight: bold;
+		    font-family: 'PT Sans';
+		    outline: none;
+		    transition: all 0.2s ease-in-out;
+		    &:focus {
+			    border-color: #66afe9;
+			    outline: 0;
+			    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+			    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+			    transition: all 0.2s ease-in-out;
+				}
+				&::placeholder {
+  				color: #c9c9c9;
+  			}
+			}
+			.indicates-required {
+				float: right;
+			}
+			.checkbox {
+				input[type=checkbox] {
+					margin-left: 0;
+					height: 18px;
+					width: 18px;
+				}
+				span {
+					padding-left: 25px;
+				}
+			}
+			.mc-field-group {
+				clear: left;
+		    position: relative;
+		    width: 100%;
+		    padding-bottom: 3%;
+		    min-height: 50px;
+		    @media(min-width: @screen-sm-min){
+		    	width: 96%;
+		    }
+				label {
+					display: none;
+				}
+				input {
+					display: block;
+			    width: 100%;
+			    padding: 8px 0;
+			    text-indent: 15px;
+			    @media(min-width: @screen-md-min){
+			    	text-indent: 2%;
+			    }
+				}
+			}
+			#mergeRow-gdpr {
+				label {
+					display: block;
+				}
+			}
+			.orange-btn {
+				float: left;
+			  margin: 15px 0;
+				.orange {
+					padding: 5px 35px;
+			    background-color: #2D7F27;
+			    color: #fff;
+			    text-transform: uppercase;
+			    font-family: Khand, Arial, serif;
+			    font-size: 21px;
+			    border-radius: 25px;
+			    height: auto;
+			    text-decoration: none;
+			    transition: all 0.2s ease-in-out;
+	        box-shadow: none;
+    			outline: none;
+			    &:hover, &:focus, &:active {
+			    	background-color: rgba(	108,	165,	103, 1);
+			    	color: #fff;
+			    	transition: all 0.2s ease-in-out;
+			    }
+				}
+			}
+			.panel-group {
+		    border: none;
+	    	box-shadow: none;
+	    	margin-bottom: 0;
+				.panel {
+					background-color: transparent;
+					border: none;
+			    box-shadow: none;
+					.panel-heading {
+						background-color: transparent;
+						border: none;
+				    box-shadow: none;
+				    padding: 0;
+				    .panel-title {
+				    	text-align: center;
+				    	padding: 0;
+				    	margin: 0;
+				    	a {
+    		        padding: 30px;
+						    background-color: #2D7F27;
+						    background-image: url('/themes/morethanfood/images/plus.png');
+						    background-size: 25px;
+						    background-repeat: no-repeat;
+						    background-position: center;
+						    color: #fff;
+						    text-transform: uppercase;
+						    font-family: Khand, Arial, serif;
+						    font-size: 0px;
+						    border-radius: 50%;
+						    height: auto;
+						    text-decoration: none;
+						    transition: all 0.2s ease-in-out;
+						    position: relative;
+  							bottom: -25px;
+						    &:hover, &:focus, &:active {
+						    	box-shadow: inset 0 3px 5px rgba(45, 127, 39, 0.75);
+						    	background-color: rgba(	108,	165,	103, 1);
+						    	color: #fff;
+						    	transition: all 0.2s ease-in-out;
+						    }
+						    @media(min-width: @screen-sm-min) {
+	    	          position: absolute;
+							    right: 0;
+							    bottom: 25px;
+							    padding: 20px;
+							    background-size: 15px;
+						    }
+						    @media(min-width: @screen-md-min) {
+						    	bottom: 30px;
+						    }
+						    @media(min-width: @screen-lg-min) {
+						    	bottom: 40px;
+						    }
+				    	}
+				    	a[aria-expanded="true"] {
+				    		display: none;
+				    	}
+				    }
+					}
+					.panel-collapse {
+						transition: all 0.5s ease-in-out;
+						.panel-body {
+							transition: all 0.5s ease-in-out;
+							border: none;
+							padding: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}*/
+
+#block-webform-4 {
+	form {
+		position: unset;
+	}
+	.block-title {
+		font-size: 60px;
+		border: none;
+		color: #2D7F27;
+		@media(min-width: @screen-sm-min) {
+			font-size: 70px;
+			line-height: 70px;
+		}
+	}
+	.panel {
+		background-color: transparent;
+		border: none;
+		box-shadow: none;
+		margin: 0;
+		.panel-heading {
+			background-color: transparent;
+			border: none;
+			box-shadow: none;
+			padding: 0;
+			@media screen and (max-height: @screen-xs-max) {
+				margin: 0 auto;
+				max-width: 40px;
+			}
+			.panel-title {
+				text-align: center;
+				padding: 0;
+				margin: 0;
+				padding: 30px;
+				background-color: #2D7F27;
+				background-image: url('/web/themes/contrib/morethanfood/images/plus.png');
+				background-size: 25px;
+				background-repeat: no-repeat;
+				background-position: center;
+				color: #fff;
+				text-transform: uppercase;
+				font-family: Khand, Arial, serif;
+				font-size: 0px;
+				border-radius: 50%;
+				height: auto;
+				text-decoration: none;
+				transition: all 0.2s ease-in-out;
+				position: relative;
+				bottom: -25px;
+				&:hover, &:focus, &:active {
+					box-shadow: inset 0 3px 5px rgba(45, 127, 39, 0.75);
+					background-color: rgba(	108,	165,	103, 1);
+					color: #fff;
+					transition: all 0.2s ease-in-out;
+				}
+				@media(min-width: @screen-sm-min) {
+					position: absolute;
+					right: 0;
+					bottom: 40px;
+					padding: 20px;
+					background-size: 15px;
+				}
+				@media(min-width: @screen-md-min) {
+					bottom: 35px;
+				}
+				@media(min-width: @screen-lg-min) {
+					bottom: 35px;
+				}
+				&[aria-expanded="true"] {
+					display: none;
+				}
+			}
+		}
+		.panel-collapse {
+			transition: all 0.5s ease-in-out;
+			padding: 0;
+			.panel-body {
+				transition: all 0.5s ease-in-out;
+				border: none;
+				padding: 0;
+			}
+		}
+	}
+	.form-control {
+		width: 100%;
+		@media(min-width: @screen-sm-min){
+			width: 96%;
+		}
+	}
+	.size-fix {
+		padding-bottom: 15px;
+		min-height: 50px;
+	}
+	.form-actions {
+		float: left;
+    margin: 15px 0;
+		.form-submit {
+			padding: 5px 35px;
+			background-color: #2D7F27;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: Khand, Arial, serif;
+			font-size: 21px;
+			border-radius: 25px;
+			height: auto;
+			text-decoration: none;
+			transition: all 0.2s ease-in-out;
+			box-shadow: none;
+			outline: none;
+			border-color: transparent;
+			&:hover, &:focus, &:active {
+				background-color: rgba(	108,	165,	103, 1);
+				color: #fff;
+				transition: all 0.2s ease-in-out;
+			}
+		}
+	}
+}
+#block-sharethis {
+	@media(min-width: @screen-sm-min){
+		position: fixed;
+	  top: 45%;
+	  left: 0;
+	  z-index: 99999;
+	  -webkit-box-shadow: 20px 0px 30px 0px rgba(0,0,0,0.25);
+		-moz-box-shadow: 20px 0px 30px 0px rgba(0,0,0,0.25);
+		box-shadow: 20px 0px 30px 0px rgba(0,0,0,0.25);
+	}
+	.stButton {
+		margin: 0;
+	}
+  .sharethis-wrapper {
+  	margin: 10px auto;
+  	text-align: center;
+  	@media(min-width: @screen-sm-min){
+  		margin: 0;
+  		text-align: initial;
+  	}
+  	> span {
+  		display: inline-block;
+  		@media(min-width: @screen-sm-min){
+  			display: block;
+  		}
+  		
+  	}
+  	.stLarge {
+  		width: 50px;
+	    height: 50px;
+	    margin-bottom: -5px;
+	    &:hover {
+	    	background-position: center;
+	    }
+  	}
+  	.st_facebook_large {
+  		.stLarge {
+  			background-image: url('/web/themes/contrib/morethanfood/images/fb-icon.png') !important;
+  		}
+  	}
+  	.st_twitter_large {
+  		.stLarge {
+  			background-image: url('/web/themes/contrib/morethanfood/images/tw-icon.png') !important;
+  		}
+  	}
+  	.st_email_large {
+  		.stLarge {
+  			background-image: url('/web/themes/contrib/morethanfood/images/mail-icon.png') !important;
+  		}
+  	}
+  	.st_sharethis_large {
+  		.stLarge {
+  			background-image: url('/web/themes/contrib/morethanfood/images/share.png') !important;
+  		}
+  	}
+  }
+}
+#block-tastytravelscountrycheesesandmountainmeats{
+	.banner-img {
+		img {
+			@media(min-width: 341px){
+				height: 340px;
+			} 
+			@media(min-width: @screen-sm-min){
+				height: 380px;
+			} 
+			@media(min-width: @screen-lg-min){
+				height: 100%;
+			}    
+		}
+	}
+}
+#block-discoveringmeatanddairyinthecentreoftheeu{
+	.block-title {
+		font-size: 30px;
+		line-height: normal;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-weight: bold;
+    margin: 30px auto;
+    //color: #272727;
+    margin-top: 0;
+    @media(min-width: @screen-sm-min){
+    	max-width: 50%;
+    }
+	}
+	.banner-img {
+		img {
+			@media(min-width: @screen-sm-min){
+		    padding-bottom: 0px;
+	  		top: 215px;
+		    padding-top: 0;
+  		}
+  		@media(min-width: @screen-md-min){
+  			top: 215px;
+        padding-bottom: 42px;
+  		}
+  		@media(min-width: @screen-lg-min){
+  			top: 175px;
+		    padding-bottom: 240px;
+  		}
+		}
+	}
+}
+.with-link.watch-box {
+	.field--name-body {
+		.colored {
+			&:after {
+				background-color: #BECEB9;
+			}
+		}
+	}
+}
+.watch-box {
+	position: relative;
+	.banner-img {
+		display: none;
+		img {
+	    z-index: -1;
+	    left: 15px;
+	    right: 15px;
+	    width: ~"calc(100% - 30px)";
+	    position: absolute;
+	    height: 340px;
+	    object-fit: cover;
+	    @media(max-width: 340px){
+		    height: 400px;
+	  	}
+    	@media(min-width: @screen-sm-min){
+    		width: 50%;
+	    	padding-right: 15px;
+	    	padding-top: 15px;
+    	}
+    	@media(min-width: @screen-md-min){
+    		
+		    top: 65px;
+		    padding-bottom: 40px;
+        padding-top: 0;
+        height: 380px;
+    	}
+    	@media(min-width: @screen-lg-min){
+    		height: 100%;
+    		padding-bottom: 130px;
+    	}
+		}
+	}
+	.field--name-body {
+    padding: 15px;
+    position: relative;
+    width: 100%;
+    float: left;
+    border: 1px solid #eee;
+		@media(max-width: @screen-xs-max){
+			margin-top: -15px;
+		}
+    .colored {
+			min-height: 340px;
+			padding: 25px 15px;
+			background-color: rgba(0,0,0,0.25);
+			color: #fff;
+			overflow: hidden;
+			z-index: 1;
+			background-position: center;
+			.pin {
+				margin: 0 auto;
+		    max-width: 25px;
+		    z-index: 1;
+        position: relative;
+			}
+			.title {
+				font-size: 40px;
+				z-index: 1;
+				position: relative;
+			}
+			.subtitle {
+				font-size: 25px;
+				z-index: 1;
+				position: relative;
+			}
+			.month {
+		    margin-top: 40px;
+		    z-index: 1;
+		    position: relative;
+			}
+			&:before {
+				content: "";
+		    display: block;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    background-color: rgba(0, 0, 0, 0.25);
+		    z-index: 0;
+			}
+			&:after {
+				content: "";
+		    width: 50px;
+		    height: 50px;
+		    display: block;
+		    position: absolute;
+		    bottom: -25px;
+		    background-color: rgba(0,0,0,0.15);
+		    right: -25px;
+		    transform: rotate(45deg);
+		    z-index: 1;
+			}
+		}
+		.text {
+			color: #3A3A3B;
+			display: table;
+	    min-height: 340px;
+	    padding-left: 30px;
+	    p {
+  	    display: table-cell;
+    		vertical-align: middle;
+	    }
+		}
+		.full-link {
+			box-shadow: 0px 12px 30px rgba(0,0,0,0.16);
+			transition: all 0.3s ease-in-out;
+			&:active {
+				box-shadow: inset 0px 0px 30px rgba(0,0,0,0.16); 
+			}
+		}
+	}
+}
+#block-sialmiddleeastb2b,
+#block-gulffood,
+#block-hotelshow {
+	.banner-img {
+		img {
+			height: 340px;
+			@media(min-width: @screen-sm-min){
+				height: 355px;
+			}
+			@media(min-width: @screen-md-min){
+				height: 380px;
+			}
+			@media(min-width: @screen-lg-min){
+				height: 100%;
+			}
+		}
+	}
+}
+
+#block-views-block-our-food-explorers-block-1 {
+	@media(max-width: @screen-xs-max){
+		padding: 0px;
+	}
+	.block-title {
+		font-size: 71px;
+		text-align: center;
+	}
+	.view-content {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    .views-row {
+    	&:first-child {
+    		margin-bottom: 50px;
+    		@media(min-width: @screen-sm-min){
+			    padding-right: 30px;
+	        background-image: url(/web/themes/contrib/morethanfood/images/dot-or-vertical.png);
+			    background-size: 3px;
+			    background-repeat: no-repeat;
+			    background-repeat-y: repeat;
+			    background-position: right;
+			    margin-bottom: 0;
+			  }
+    	}
+    	&:last-child {
+		    @media(min-width: @screen-sm-min) {
+					padding-left: 27px;
+				}
+    	}
+    }
+    .wrapper {
+    	.profile {
+		    background-color: #fff;
+    		padding: 15px;
+    		position: relative;
+    		margin-bottom: 50px;
+    		box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+    		.image {
+    			overflow: hidden;
+    			img {
+    				transition: all 0.3s ease-in-out;
+    				transform: scale(1);
+    				@media(max-width: @screen-xs-max) {
+    					margin: 0 auto;
+    				}
+    			}
+    		}
+    		.social-link {
+    			font-size: 0;
+    			a {
+    				position: absolute;
+    				top: 0;
+    				bottom: 0;
+    				left: 0;
+    				right: 0;
+    			}
+    		}
+    		&:hover {
+    			.image {
+    				img {
+    					transition: all 0.3s ease-in-out;
+    					transform: scale(1.1);
+    				}
+    			}
+    		}
+    	}
+    	.quote {
+		    padding-left: 40px;
+		    background-image: url('/web/themes/contrib/morethanfood/images/quote.png');
+		    background-repeat: no-repeat;
+    		background-size: 25px;
+    		background-position: left top;
+    		margin-bottom: 50px;
+    		min-height: 150px;
+    	}
+    	.insta-img {
+    		.paragraph {
+    			position: relative;
+			    width: 50%;
+    			float: left;
+			    padding-left: 5px;
+			    padding-right: 0;
+			    margin-bottom: 10px;
+			    &:nth-child(2n+1) {
+			    	padding-right: 5px;
+			    	padding-left: 0;
+			    }
+    			.field--name-field-instagram-image {
+    				overflow: hidden;
+    				border: 3px solid #fff;
+	    			img {
+	    				transition: all 0.3s ease-in-out;
+	    				transform: scale(1);
+	    				width: 100%;
+	    			}
+    			}
+    			.field--name-field-instagram-link {
+    				font-size: 0;
+    				a {
+    					position: absolute;
+    					position: absolute;
+	    				top: 0;
+	    				bottom: 0;
+	    				left: 0;
+	    				right: 0;
+    				}
+    			}
+    			&:hover {
+    				img {
+	    				transition: all 0.3s ease-in-out;
+	    				transform: scale(1.1);
+	    			}
+    			}
+    		}
+    	}
+    }
+	}
+}
+#block-views-block-tasty-eu-products-block-1,
+#block-views-block-eu-products-slider-block-1 {
+  padding: 50px 0px;
+  padding-bottom: 0;
+  @media(min-width: @screen-sm-min) {
+		padding: 50px 15px;
+	}
+	.block-title {
+		font-size: 40px;
+		//color: #DE5C28;
+		text-align: center;
+		@media(min-width: @screen-sm-min) {
+			font-size: 50px;
+		}
+		@media(min-width: @screen-md-min) {
+			font-size: 71px;
+		}
+	}
+	.view-content {
+		width: 100%;
+    float: left;
+    margin-top: 50px;
+    @media(min-width: @screen-sm-min) {
+			margin-top: 100px;
+		}
+    .views-row {
+    	&:first-child{
+    		margin-bottom: 50px;
+    		@media(min-width: @screen-sm-min) {
+					margin-bottom: 0;
+				}
+    	}
+			article {
+				padding: 0;
+				position: relative;
+				h2 {
+					font-size: 25px;
+					position: absolute;
+					bottom: 0;
+					width: 100%;
+					text-align: center;
+					font-weight: bold;
+				}
+				.field--name-field-image {
+			    margin-bottom: 60px;
+	        border: 3px solid #fff;
+			    box-shadow: 0px 10px 30px rgba(0,0,0,0.35);
+			    overflow: hidden;
+			    @media(min-width: @screen-sm-min) {
+						margin-bottom: 100px;
+					}
+			    img {
+			    	width: 100%;
+			    	transition: all 0.3s ease-in-out;
+    				transform: scale(1);
+			    }
+			    &:hover {
+    				img {
+	    				transition: all 0.3s ease-in-out;
+	    				transform: scale(1.1);
+	    			}
+    			}
+				}
+			}
+			@media(min-width: @screen-sm-min){
+				&:first-child {
+					article {
+						margin-right: 10%;
+					}
+				}
+				&:last-child {
+					article {
+						margin-left: 10%;
+					}
+				}
+			}
+		}
+	}
+}
+#block-views-block-eu-products-slider-block-1 {
+	.view-content {
+		margin-top: 50px;
+    @media(min-width: @screen-sm-min){
+    	padding-left: 50px;
+    	padding-right: 50px;
+    }
+		.slick-list {
+			.slick-track {
+				.slick-slide {
+					.views-field-field-image {
+						border: 3px solid #fff;
+				    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.35);
+				    overflow: hidden;
+		        margin: 0 30px;
+		        img {
+		        	width: 100%;
+					    transition: all 0.3s ease-in-out;
+					    transform: scale(1);
+		        }
+		        &:hover {
+		        	img {
+		        		transition: all 0.3s ease-in-out;
+	    					transform: scale(1.1);
+		        	}
+		        }
+					}
+					.views-field-title {
+						font-size: 25px;
+						text-align: center;
+				    margin-left: 30px;
+				    margin-right: 30px;
+					}
+				}
+			}
+		}
+	  .slick-dots {
+	    li {
+	      width: 10px;
+	      button {
+	        &:before {
+	          content: " ";
+	          background-color: #de5c28;
+	          border-radius: 50%;
+	          width: 13px;
+	          height: 13px;
+	          opacity: 1;
+	          border: 1px solid transparent;
+	        }
+	      }
+	      &.slick-active {
+	        button {
+	          &:before {
+	            opacity:1;
+	            background-color: #6d2b10;
+	          }
+	        }  
+	      }
+	    }
+	  }
+	  .slick__arrow {
+	  	visibility: hidden;
+	  	transition: all 0.3s ease-in-out;
+	    top: 45%;
+	  	.slick-arrow {
+	  		width: 70px;
+	  		height: 70px;
+	  		&:before {
+	  			font-size: 7rem;
+	  		}
+	  	}
+	  	.slick-prev {
+	  		left: -50px;
+	  	}
+	  	.slick-next {
+	  		right: -50px;
+	  	}
+	  }
+	  &:hover {
+	  	.slick__arrow {
+	  		visibility: visible;
+	  		transition: all 0.3s ease-in-out;
+	  	}
+	  }
+	}
+}
+.about {
+	.page {
+		.field--name-body {
+			//overflow: hidden;
+			//word-break: break-all;
+		}
+	}
+}
+.more-than-trip-eu-food-exploration-healthy-and-bio {
+	#banner {
+		#block-views-block-basic-page-banner-block-2 {
+			.wrapper .title {
+				max-width: 100%;
+				@media(min-width: @screen-sm-min) {
+    			text-align: center;
+    			padding-top: 100px;
+				}
+			}
+		}
+	}
+}
+.european-quality-schemes {
+	.main-region {
+		.region-content {
+			display: none;
+		}
+	}
+}
+.lang-ar {
+	#block-europeanqualityschemescontent {
+		.wrapper {
+			.block-header {
+				font-weight: normal;
+			}
+			.block-content {
+				.box {
+					.box-title {
+						font-family: 'noto_kufi_arabicregular', Arial ,serif;
+					}
+				}
+			}
+		}
+	}
+	#block-europeanqualityschemeslogos .logos {
+		right: auto;
+		left: 0;
+	}
+}
+#block-europeanqualityschemescontent {
+	margin: 100px 0;
+	.wrapper {
+		.block-header {
+	    margin-bottom: 50px;
+		}
+		.block-content {
+	    display: block;
+	    @media(min-width: @screen-sm-min) {
+    		display: flex;
+			}
+			.col-xs-12 {
+				padding: 0 7.5px;
+		    flex: 1;
+			}
+			.box {
+		    background-color: #ecf4ec;
+		    text-align: center;
+		    padding: 15px;
+		    height: 100%;
+		    .box-img {
+			    width: 100%;
+			    height: 200px;
+			    display: table;
+			    img {
+	    	    margin: 0 auto;
+    				max-height: 200px;
+			    }
+				}
+				.box-title {
+    			color: #2d7f27;
+    			font-family: 'Khand', Arial, serif;
+			    margin: 40px 0;
+				}
+			}
+		}
+		.block-footer {
+			margin-top: 50px;
+		}
+	}
+}
+#block-europeanqualityschemeslogos {
+	position: relative;
+	.logos {
+    position: absolute;
+    right: 0;
+    top: -200px;
+    .logo {
+    	display: inline-block;
+    	margin: 0 10px;
+    	img {
+    		max-width: 100px;
+    	}
+    }
+	}
+}

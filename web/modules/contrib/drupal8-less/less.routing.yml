@@ -1,0 +1,25 @@
+less.admin_settings:
+  path: '/admin/config/development/less'
+  defaults:
+    _form: '\Drupal\less\Form\SettingsForm'
+    _title: 'LESS settings'
+  requirements:
+    _permission: 'administer less'
+
+less.cached_file_private:
+  path: '/system/files/less/{cache_id}/{scheme}'
+  defaults:
+    _controller: '\Drupal\less\Controller\LessCachedFileDownloadController::deliver'
+  requirements:
+    _access: 'TRUE'
+
+less.ajax:
+  path: 'ajax/less/watch.json'
+  defaults:
+    _controller: '\Drupal\less\Controller\LessWatchController::_less_watch'
+  methods:  [POST]
+  requirements:
+    _access: 'TRUE'
+
+route_callbacks:
+  - '\Drupal\less\Routing\LessCachedFileRoutes::routes'
