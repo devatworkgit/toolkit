@@ -1,0 +1,33 @@
+uuid: e0927737-bf5b-4c6f-b273-b644c5f60f48
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.timeline
+  module:
+    - node
+    - views
+  theme:
+    - morethanfood
+id: views_block__timeline_block_2
+theme: morethanfood
+region: section1
+weight: -16
+provider: null
+plugin: 'views_block:timeline-block_2'
+settings:
+  id: 'views_block:timeline-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      tasty_trip: tasty_trip
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

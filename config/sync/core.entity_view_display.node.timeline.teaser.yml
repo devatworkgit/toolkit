@@ -1,0 +1,29 @@
+uuid: f138f5d3-0e0d-41df-a6ed-efd72f13f687
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.timeline.field_tasty_travel
+    - field.field.node.timeline.field_timeline_image
+    - field.field.node.timeline.field_weight
+    - field.field.node.timeline.field_youtube_video
+    - node.type.timeline
+  module:
+    - user
+id: node.timeline.teaser
+targetEntityType: node
+bundle: timeline
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_tasty_travel: true
+  field_timeline_image: true
+  field_weight: true
+  field_youtube_video: true
+  langcode: true

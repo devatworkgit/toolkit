@@ -1,0 +1,35 @@
+uuid: 5872aaf4-99ca-49ef-8000-e38e6afd6e63
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d474ecc3-436c-4ebf-8dff-56d207197581'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text with-link watch-box'
+id: discoveringmeatanddairyinthecentreoftheeu
+theme: morethanfood
+region: section1
+weight: -32
+provider: null
+plugin: 'block_content:d474ecc3-436c-4ebf-8dff-56d207197581'
+settings:
+  id: 'block_content:d474ecc3-436c-4ebf-8dff-56d207197581'
+  label: 'Meet our Food Explorers and read about their journey of discovery of EU food and drink '
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/watch\r\n/more-than-trip"
+    negate: false
+    context_mapping: {  }

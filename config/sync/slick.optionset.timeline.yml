@@ -1,0 +1,49 @@
+uuid: 73f04cec-cc4a-4ef5-a339-c555cbe70ba3
+langcode: en
+status: false
+dependencies:
+  enforced:
+    module:
+      - slick
+_core:
+  default_config_hash: Zyx4BsKtbNFnRU7WTHAF0DGHMenI0b_Czn4dwl1bQTc
+id: timeline
+name: timeline
+label: Timeline
+weight: -10
+group: main
+skin: classic
+breakpoints: 2
+optimized: true
+options:
+  options__active_tab: edit-options-responsives
+  settings:
+    mobileFirst: true
+    arrows: false
+    dots: true
+    draggable: false
+    infinite: false
+    lazyLoad: ondemand
+    slidesToShow: 1
+  responsives:
+    responsive:
+      -
+        breakpoint: 768
+        unslick: false
+        settings:
+          arrows: false
+          dots: true
+          draggable: false
+          infinite: false
+          slidesToShow: 2
+          swipe: false
+          touchMove: false
+      -
+        breakpoint: 992
+        unslick: false
+        settings:
+          draggable: false
+          infinite: false
+          slidesToShow: 4
+          swipe: false
+          touchMove: false

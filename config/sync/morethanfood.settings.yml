@@ -1,0 +1,46 @@
+favicon:
+  mimetype: image/png
+  path: 'public://top-logo.png'
+  url: 'https://www.morethanfood.ae/themes/morethanfood/favicon.ico'
+  use_default: false
+schemas:
+  bootstrap: 8000
+  morethanfood: 8000
+table_responsive: '-1'
+table: ''
+cdn_custom_css: 'https://cdn.jsdelivr.net/npm/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.css'
+cdn_custom_css_min: 'https://cdn.jsdelivr.net/npm/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css'
+cdn_custom_js: 'https://cdn.jsdelivr.net/npm/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js'
+cdn_custom_js_min: 'https://cdn.jsdelivr.net/npm/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.min.js'
+navbar_position: fixed-top
+region_wells:
+  section_top: ''
+  navigation: ''
+  navigation_collapsible: ''
+  banner: ''
+  navigation_bottom: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  section1: ''
+  section2: ''
+  section_gray: ''
+  section2_5: ''
+  section3: ''
+  section4: ''
+  subscribe: ''
+  footer: ''
+  footer_bottom: ''
+  copyright: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true

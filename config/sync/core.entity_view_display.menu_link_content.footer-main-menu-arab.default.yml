@@ -1,0 +1,27 @@
+uuid: 68b13ce7-b007-4226-9dc8-4e4b46f034b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.menu_link_content.footer-main-menu-arab.field_description
+    - system.menu.footer-main-menu-arab
+id: menu_link_content.footer-main-menu-arab.default
+targetEntityType: menu_link_content
+bundle: footer-main-menu-arab
+mode: default
+content:
+  children:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_description:
+    type: string
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  langcode: true

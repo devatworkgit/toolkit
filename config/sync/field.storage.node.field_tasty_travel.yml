@@ -1,0 +1,20 @@
+uuid: f60c5030-e62c-4027-a3d5-be3e136e2a1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_tasty_travel
+field_name: field_tasty_travel
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

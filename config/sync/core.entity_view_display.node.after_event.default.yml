@@ -1,0 +1,35 @@
+uuid: 1b5b935b-eee4-4736-8b85-8f3163e29a3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.after_event.body
+    - field.field.node.after_event.field_banner
+    - field.field.node.after_event.field_banner_text
+    - field.field.node.after_event.field_slider_images
+    - node.type.after_event
+  module:
+    - text
+    - user
+id: node.after_event.default
+targetEntityType: node
+bundle: after_event
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_banner: true
+  field_banner_text: true
+  field_slider_images: true
+  langcode: true

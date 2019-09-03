@@ -1,0 +1,21 @@
+uuid: cc41a607-49f5-484e-acbc-2eb67fe8f534
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eup_title
+    - node.type.pavilion_page
+  module:
+    - text
+id: node.pavilion_page.field_eup_title
+field_name: field_eup_title
+entity_type: node
+bundle: pavilion_page
+label: 'EUP title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

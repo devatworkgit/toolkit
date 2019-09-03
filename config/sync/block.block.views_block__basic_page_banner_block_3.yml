@@ -1,0 +1,25 @@
+uuid: 975192a6-3e74-492c-85c9-230edab5c303
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.basic_page_banner
+  module:
+    - views
+  theme:
+    - morethanfood
+id: views_block__basic_page_banner_block_3
+theme: morethanfood
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:basic_page_banner-block_3'
+settings:
+  id: 'views_block:basic_page_banner-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 7ff0f1a4-b46d-4f21-b3a8-e266439b8884
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.pavilion_node_content
+  module:
+    - node
+    - views
+  theme:
+    - morethanfood
+id: views_block__pavilion_node_content_block_2
+theme: morethanfood
+region: section2
+weight: 0
+provider: null
+plugin: 'views_block:pavilion_node_content-block_2'
+settings:
+  id: 'views_block:pavilion_node_content-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      pavilion_page: pavilion_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

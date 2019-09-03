@@ -1,0 +1,29 @@
+uuid: 6a04853b-f6c3-4d6a-b823-447a288e6de1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8c8abe56-2faa-4da8-b900-9580ee4cfc40'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'col-xs-12 col-md-6'
+id: footereulogo
+theme: morethanfood
+region: footer_bottom
+weight: -34
+provider: null
+plugin: 'block_content:8c8abe56-2faa-4da8-b900-9580ee4cfc40'
+settings:
+  id: 'block_content:8c8abe56-2faa-4da8-b900-9580ee4cfc40'
+  label: 'Footer Eu logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

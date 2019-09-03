@@ -1,0 +1,31 @@
+uuid: e912bda8-9e4d-4ba3-b7a2-841ddcd35c58
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ee09e026-5923-4634-85f9-6cb5f0f0fbef'
+  module:
+    - block_content
+    - system
+  theme:
+    - morethanfood
+id: europeanqualityschemescontent
+theme: morethanfood
+region: section1
+weight: -18
+provider: null
+plugin: 'block_content:ee09e026-5923-4634-85f9-6cb5f0f0fbef'
+settings:
+  id: 'block_content:ee09e026-5923-4634-85f9-6cb5f0f0fbef'
+  label: 'European Quality Schemes content'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /node/46
+    negate: false
+    context_mapping: {  }

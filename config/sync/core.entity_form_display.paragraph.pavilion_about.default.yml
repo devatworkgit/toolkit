@@ -1,0 +1,65 @@
+uuid: 12991fd7-b64a-4918-a2f9-0ee98d95b5b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pavilion_about.field_address
+    - field.field.paragraph.pavilion_about.field_description
+    - field.field.paragraph.pavilion_about.field_image_right
+    - field.field.paragraph.pavilion_about.field_link
+    - field.field.paragraph.pavilion_about.field_opening_hours
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.pavilion_about
+  module:
+    - image
+    - link
+    - text
+id: paragraph.pavilion_about.default
+targetEntityType: paragraph
+bundle: pavilion_about
+mode: default
+content:
+  field_address:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_description:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_image_right:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_link:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_opening_hours:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

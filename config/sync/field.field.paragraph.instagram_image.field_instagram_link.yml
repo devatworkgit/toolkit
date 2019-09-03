@@ -1,0 +1,23 @@
+uuid: 3388cd8a-8e99-4239-97f6-16c2b41e38d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_instagram_link
+    - paragraphs.paragraphs_type.instagram_image
+  module:
+    - link
+id: paragraph.instagram_image.field_instagram_link
+field_name: field_instagram_link
+entity_type: paragraph
+bundle: instagram_image
+label: 'Instagram Link'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

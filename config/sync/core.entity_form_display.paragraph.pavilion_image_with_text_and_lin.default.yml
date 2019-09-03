@@ -1,0 +1,37 @@
+uuid: 9ece8814-b9d7-4260-9873-80d12a543ee5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pavilion_image_with_text_and_lin.field_icon
+    - field.field.paragraph.pavilion_image_with_text_and_lin.field_link
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.pavilion_image_with_text_and_lin
+  module:
+    - image
+    - link
+id: paragraph.pavilion_image_with_text_and_lin.default
+targetEntityType: paragraph
+bundle: pavilion_image_with_text_and_lin
+mode: default
+content:
+  field_icon:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

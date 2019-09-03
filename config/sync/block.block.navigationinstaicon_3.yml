@@ -1,0 +1,29 @@
+uuid: 21a37a65-41d4-4d5d-b055-75868d140fe1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:31467ef8-cacc-4cc9-84aa-9f75b394a5b3'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: hidden-xs
+id: navigationinstaicon_3
+theme: morethanfood
+region: navigation_collapsible
+weight: -30
+provider: null
+plugin: 'block_content:31467ef8-cacc-4cc9-84aa-9f75b394a5b3'
+settings:
+  id: 'block_content:31467ef8-cacc-4cc9-84aa-9f75b394a5b3'
+  label: 'Navigation insta icon'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

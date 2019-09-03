@@ -1,0 +1,22 @@
+uuid: 37e99016-b164-46f7-a9b9-02e18c775473
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - morethanfood
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: morethanfood_content
+theme: morethanfood
+region: content
+weight: -34
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

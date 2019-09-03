@@ -1,0 +1,30 @@
+uuid: 2489fdae-0ddd-41b5-a678-67834e109852
+langcode: en
+status: false
+dependencies:
+  enforced:
+    module:
+      - slick
+_core:
+  default_config_hash: Zyx4BsKtbNFnRU7WTHAF0DGHMenI0b_Czn4dwl1bQTc
+id: home_slider
+name: home_slider
+label: 'Home slider'
+weight: -10
+group: main
+skin: classic
+breakpoints: 0
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    mobileFirst: true
+    autoplay: true
+    arrows: false
+    dots: true
+    draggable: false
+    fade: true
+    lazyLoad: ondemand
+    rtl: true
+    slidesToShow: 1
+    swipeToSlide: true

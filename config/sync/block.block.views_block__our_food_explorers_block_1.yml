@@ -1,0 +1,36 @@
+uuid: fd5a659b-d0c9-4ad9-9429-63bca3702316
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.our_food_explorers
+  module:
+    - block_class
+    - node
+    - views
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 gray-text'
+id: views_block__our_food_explorers_block_1
+theme: morethanfood
+region: section_gray
+weight: 0
+provider: null
+plugin: 'views_block:our_food_explorers-block_1'
+settings:
+  id: 'views_block:our_food_explorers-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      tasty_trip: tasty_trip
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

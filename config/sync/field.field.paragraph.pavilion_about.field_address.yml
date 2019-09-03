@@ -1,0 +1,21 @@
+uuid: 8c27fed5-ae9e-4636-b9ea-867acd49feef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_address
+    - paragraphs.paragraphs_type.pavilion_about
+  module:
+    - text
+id: paragraph.pavilion_about.field_address
+field_name: field_address
+entity_type: paragraph
+bundle: pavilion_about
+label: Address
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

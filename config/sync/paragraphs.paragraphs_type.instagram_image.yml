@@ -1,0 +1,11 @@
+uuid: c86c2af2-14de-4fcb-8914-3fb94d7410fe
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:a409d59a-f681-4fbb-b916-9a03687d104f'
+id: instagram_image
+label: 'Instagram Image'
+icon_uuid: a409d59a-f681-4fbb-b916-9a03687d104f
+description: ''
+behavior_plugins: {  }

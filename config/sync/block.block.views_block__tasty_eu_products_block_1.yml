@@ -1,0 +1,40 @@
+uuid: 569568eb-558c-47d8-90c4-1f0e4c27624f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tasty_eu_products
+  module:
+    - node
+    - user
+    - views
+  theme:
+    - morethanfood
+id: views_block__tasty_eu_products_block_1
+theme: morethanfood
+region: section2_5
+weight: 0
+provider: null
+plugin: 'views_block:tasty_eu_products-block_1'
+settings:
+  id: 'views_block:tasty_eu_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      tasty_trip: tasty_trip
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

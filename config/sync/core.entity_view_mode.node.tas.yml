@@ -1,0 +1,10 @@
+uuid: 017932fe-e315-4a6f-99d3-ace0d9075b99
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.tas
+label: 'tasty trip'
+targetEntityType: node
+cache: true

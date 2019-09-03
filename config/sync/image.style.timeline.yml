@@ -1,0 +1,15 @@
+uuid: 060ad1c4-5d74-430b-99ca-9e45a9139c62
+langcode: en
+status: true
+dependencies: {  }
+name: timeline
+label: timeline
+effects:
+  8a6bb582-4e64-4070-8476-0cb67578d2e8:
+    uuid: 8a6bb582-4e64-4070-8476-0cb67578d2e8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 250
+      height: 250
+      anchor: center-center

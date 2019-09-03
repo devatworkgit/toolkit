@@ -1,0 +1,33 @@
+uuid: 9600cb0e-28fc-4459-a70b-06aad1f390d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.basic_page_banner
+  module:
+    - node
+    - views
+  theme:
+    - morethanfood
+id: views_block__basic_page_banner_block_2
+theme: morethanfood
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:basic_page_banner-block_2'
+settings:
+  id: 'views_block:basic_page_banner-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      tasty_trip: tasty_trip
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

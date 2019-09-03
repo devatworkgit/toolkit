@@ -1,0 +1,14 @@
+uuid: 18dc0eaf-2aa5-4be9-9b26-fda737f824a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: other_paths
+label: 'Other Paths'
+type: 'canonical_entities:node'
+pattern: '/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

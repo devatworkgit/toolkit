@@ -1,0 +1,21 @@
+uuid: 45c2d08a-eaca-436d-8c56-568cbaebfa63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position
+    - paragraphs.paragraphs_type.chefs
+  module:
+    - text
+id: paragraph.chefs.field_position
+field_name: field_position
+entity_type: paragraph
+bundle: chefs
+label: Position
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

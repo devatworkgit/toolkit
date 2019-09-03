@@ -1,0 +1,21 @@
+uuid: 0ff2681c-be10-49fa-b33d-4eaf38cd9a7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_text
+    - node.type.page
+  module:
+    - text
+id: node.page.field_banner_text
+field_name: field_banner_text
+entity_type: node
+bundle: page
+label: 'Banner text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

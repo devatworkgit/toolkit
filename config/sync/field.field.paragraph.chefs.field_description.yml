@@ -1,0 +1,21 @@
+uuid: ca2f5fa7-90cb-4e25-a384-d737fc30bc75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.chefs
+  module:
+    - text
+id: paragraph.chefs.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: chefs
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: dffccc0f-4b5e-434f-8cbb-370688d1f991
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tasty_trip
+  module:
+    - text
+id: node.tasty_trip.body
+field_name: body
+entity_type: node
+bundle: tasty_trip
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

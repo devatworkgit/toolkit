@@ -1,0 +1,35 @@
+uuid: 845810b6-1516-47a4-af78-7585843c40b6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38b73757-4199-4372-a54c-79db83540ab9'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text  with-link watch-box'
+id: europeanpavilionatgulfood2019
+theme: morethanfood
+region: section1
+weight: -24
+provider: null
+plugin: 'block_content:38b73757-4199-4372-a54c-79db83540ab9'
+settings:
+  id: 'block_content:38b73757-4199-4372-a54c-79db83540ab9'
+  label: 'Gulf Food'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /b2b
+    negate: false
+    context_mapping: {  }

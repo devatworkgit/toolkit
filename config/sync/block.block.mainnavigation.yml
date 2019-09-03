@@ -1,0 +1,34 @@
+uuid: e59cad67-cd43-4767-8812-0bb078181b04
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'col-xs-12 col-sm-8'
+id: mainnavigation
+theme: morethanfood
+region: footer
+weight: -24
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

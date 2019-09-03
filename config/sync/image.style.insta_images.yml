@@ -1,0 +1,15 @@
+uuid: 5a3083eb-9f2c-4725-93a2-ecc81d126179
+langcode: en
+status: true
+dependencies: {  }
+name: insta_images
+label: 'insta images'
+effects:
+  90554b7c-a972-43fa-b077-8b8759c162f5:
+    uuid: 90554b7c-a972-43fa-b077-8b8759c162f5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center

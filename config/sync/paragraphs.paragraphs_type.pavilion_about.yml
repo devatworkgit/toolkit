@@ -1,0 +1,9 @@
+uuid: 170fb977-4bb1-483e-8bd8-97bf813f83ae
+langcode: en
+status: true
+dependencies: {  }
+id: pavilion_about
+label: 'Pavilion About'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

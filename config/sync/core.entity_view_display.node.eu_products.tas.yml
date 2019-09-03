@@ -1,0 +1,38 @@
+uuid: c222330e-af59-4072-af0e-4db9a164c2b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.tas
+    - field.field.node.eu_products.field_image
+    - field.field.node.eu_products.field_introduction
+    - field.field.node.eu_products.field_knowledge
+    - field.field.node.eu_products.field_subtitle
+    - image.style.500x300
+    - node.type.eu_products
+  module:
+    - field_formatter_class
+    - image
+    - user
+id: node.eu_products.tas
+targetEntityType: node
+bundle: eu_products
+mode: tas
+content:
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: 500x300
+      image_link: content
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+hidden:
+  field_introduction: true
+  field_knowledge: true
+  field_subtitle: true
+  langcode: true
+  links: true

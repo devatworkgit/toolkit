@@ -1,0 +1,35 @@
+uuid: d0251e2f-c3b0-46b2-9842-d058d41f308a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9cc7b184-095a-48bb-8b84-f4e1e9ed0226'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text watch-box'
+id: tastytravelshealthyandgreen
+theme: morethanfood
+region: section1
+weight: -28
+provider: null
+plugin: 'block_content:9cc7b184-095a-48bb-8b84-f4e1e9ed0226'
+settings:
+  id: 'block_content:9cc7b184-095a-48bb-8b84-f4e1e9ed0226'
+  label: 'Tasty Travels: Country Cheeses and Mountain Meats'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/watch\r\n/more-than-trip"
+    negate: false
+    context_mapping: {  }

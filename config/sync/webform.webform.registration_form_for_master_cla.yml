@@ -1,0 +1,169 @@
+uuid: 208d2887-d429-450c-b457-d46e03932ff5
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: registration_form_for_master_cla
+title: 'Registration form for master classes EU Pavilion Gulfood 2019'
+description: ''
+category: ''
+elements: "your_first_name_and_last_name:\n  '#type': textfield\n  '#title': 'Your first name and last name'\n  '#required': true\nyour_email_address:\n  '#type': email\n  '#title': 'Your email address'\n  '#required': true\nyour_phone_number:\n  '#type': webform_telephone\n  '#title': 'Your phone number'\n  '#required': true\n  '#type__access': false\n  '#ext__access': false\n  '#phone__international': false\nyour_title:\n  '#type': textfield\n  '#title': 'Your title'\n  '#required': true\nyour_organisation:\n  '#type': textfield\n  '#title': 'Your organisation'\n  '#required': true\nmaster_classes:\n  '#type': processed_text\n  '#text': \"<div>Master classes</div>\\r\\n\"\n  '#format': full_html\nmonday_18_02:\n  '#type': webform_section\n  '#title': 'Monday 18/02'\n  master_class_how_to_integrate_arabic_ingredients_in_european_cui:\n    '#type': checkbox\n    '#title': '13:15 – 14:00 MASTER CLASS -  How to integrate Arabic ingredients in European cuisine by Mona Mosly'\ntuesday_19_02:\n  '#type': webform_section\n  '#title': 'Tuesday 19/02'\n  master_class_integrating_european_ingredients_with_asian_flavour:\n    '#type': checkbox\n    '#title': '13:15 – 14:00 MASTER CLASS - Integrating European ingredients with Asian flavours by Charles Soussin & Mona Mosly'\nwednesday_20_02:\n  '#type': webform_section\n  '#title': 'Wednesday 20/02'\n  master_class_how_to_integrate_european_ingredients_in_arabic_cui:\n    '#type': checkbox\n    '#title': '13:15 – 14:00 MASTER CLASS - How to integrate  European ingredients in Arabic cuisine by Charles Soussin'\nif_you_would_like_to_register_another_person_for_the_same_cookin:\n  '#type': webform_section\n  '#title': 'If you would like to register another person for the same cooking shows, please fill in below: '\n  '#title_tag': div\n  his_her_first_and_last_name:\n    '#type': textfield\n    '#title': 'His / her first and last name'\n  his_her_email_address:\n    '#type': textfield\n    '#title': 'His / her email address'\n  his_her_phone_number:\n    '#type': webform_telephone\n    '#title': 'His / her phone number'\n    '#type__access': false\n    '#ext__access': false\n    '#phone__international': false\n  his_her_title:\n    '#type': textfield\n    '#title': 'His / her title'\n  his_her_organisation:\n    '#type': textfield\n    '#title': 'His / her organisation'\ni_agree_with_the_a_href_https_www_morethanfood_ae_sites_default_:\n  '#type': checkbox\n  '#title': 'I agree with the <a href=\"https://www.morethanfood.ae/sites/default/files/2019-02/Privacy%20Statement%20EN.pdf\">Privacy Statement</a>'\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': 'Register Now'"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_title: both
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: true
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }

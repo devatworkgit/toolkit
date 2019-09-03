@@ -1,0 +1,22 @@
+uuid: cb049b97-a19e-49ed-b0b6-10de2f6a60a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.homepage_slider
+  module:
+    - text
+id: node.homepage_slider.body
+field_name: body
+entity_type: node
+bundle: homepage_slider
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

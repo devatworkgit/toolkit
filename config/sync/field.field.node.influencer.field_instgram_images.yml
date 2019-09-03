@@ -1,0 +1,31 @@
+uuid: 2483171e-67e3-4cf2-ac3a-b404390297fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_instgram_images
+    - node.type.influencer
+    - paragraphs.paragraphs_type.instagram_image
+  module:
+    - entity_reference_revisions
+id: node.influencer.field_instgram_images
+field_name: field_instgram_images
+entity_type: node
+bundle: influencer
+label: 'Instgram Images'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      instagram_image: instagram_image
+    target_bundles_drag_drop:
+      instagram_image:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

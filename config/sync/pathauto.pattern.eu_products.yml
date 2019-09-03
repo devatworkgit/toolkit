@@ -1,0 +1,33 @@
+uuid: d7b2ad0a-8269-4432-9a3b-18a427b3dba5
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: eu_products
+label: 'Eu Products'
+type: 'canonical_entities:node'
+pattern: '/discover/[node:title]'
+selection_criteria:
+  29665637-3b7e-4194-b721-8997f3c2c097:
+    id: node_type
+    bundles:
+      eu_products: eu_products
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 29665637-3b7e-4194-b721-8997f3c2c097
+  b0b4f674-3a34-4bde-9e10-6389298d3c54:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: 'node:langcode:language'
+    uuid: b0b4f674-3a34-4bde-9e10-6389298d3c54
+selection_logic: and
+weight: -5
+relationships:
+  'node:langcode:language':
+    label: Language

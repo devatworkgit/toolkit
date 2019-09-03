@@ -1,0 +1,45 @@
+uuid: 44e31264-f1e0-4ba6-ba40-de6b516b6ddc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.menu_link_content.footer-main-menu-arab.field_description
+    - system.menu.footer-main-menu-arab
+  module:
+    - link
+    - menu_item_extras
+id: menu_link_content.footer-main-menu-arab.default
+targetEntityType: menu_link_content
+bundle: footer-main-menu-arab
+mode: default
+content:
+  field_description:
+    weight: 21
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  view_mode:
+    type: menu_item_extras_view_mode_selector_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

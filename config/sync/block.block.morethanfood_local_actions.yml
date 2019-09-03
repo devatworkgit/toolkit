@@ -1,0 +1,20 @@
+uuid: f35c1156-cc3c-4a8f-b45f-e92dd77fb7f7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - morethanfood
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: morethanfood_local_actions
+theme: morethanfood
+region: header
+weight: -32
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

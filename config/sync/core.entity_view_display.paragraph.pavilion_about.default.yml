@@ -1,0 +1,74 @@
+uuid: 7d25fb84-5dc3-454f-bc05-c7babb35769f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pavilion_about.field_address
+    - field.field.paragraph.pavilion_about.field_description
+    - field.field.paragraph.pavilion_about.field_image_right
+    - field.field.paragraph.pavilion_about.field_link
+    - field.field.paragraph.pavilion_about.field_opening_hours
+    - paragraphs.paragraphs_type.pavilion_about
+  module:
+    - field_formatter_class
+    - image
+    - link
+    - text
+id: paragraph.pavilion_about.default
+targetEntityType: paragraph
+bundle: pavilion_about
+mode: default
+content:
+  field_address:
+    weight: 1
+    label: inline
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: 'col-xs-12 col-sm-6 pull-left'
+    type: text_default
+    region: content
+  field_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: 'col-xs-12 col-sm-6 pull-left'
+    type: text_default
+    region: content
+  field_image_right:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: 'col-xs-12 col-sm-6 pull-right'
+    type: image
+    region: content
+  field_link:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      field_formatter_class:
+        class: 'col-xs-12 col-sm-6 pull-left'
+    type: link
+    region: content
+  field_opening_hours:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: 'col-xs-12 col-sm-6 pull-left'
+    type: text_default
+    region: content
+hidden: {  }

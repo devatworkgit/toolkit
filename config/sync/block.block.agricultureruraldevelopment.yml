@@ -1,0 +1,43 @@
+uuid: f8edceef-acf6-450b-8df2-1181f8f09a88
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a009ed30-7bab-4b00-8fc7-b024ffda0896'
+  module:
+    - block_class
+    - block_content
+    - system
+    - user
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: gray-text
+id: agricultureruraldevelopment
+theme: morethanfood
+region: section1
+weight: -33
+provider: null
+plugin: 'block_content:a009ed30-7bab-4b00-8fc7-b024ffda0896'
+settings:
+  id: 'block_content:a009ed30-7bab-4b00-8fc7-b024ffda0896'
+  label: 'Agriculture & rural development'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

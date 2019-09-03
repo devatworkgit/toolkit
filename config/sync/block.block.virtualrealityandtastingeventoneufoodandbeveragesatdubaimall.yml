@@ -1,0 +1,35 @@
+uuid: 6d1c9d7f-4795-4010-b572-cdc3e4b4f030
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7af15c97-afb8-47ea-be62-3428a0717f8f'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text watch-box'
+id: virtualrealityandtastingeventoneufoodandbeveragesatdubaimall
+theme: morethanfood
+region: section1
+weight: -22
+provider: null
+plugin: 'block_content:7af15c97-afb8-47ea-be62-3428a0717f8f'
+settings:
+  id: 'block_content:7af15c97-afb8-47ea-be62-3428a0717f8f'
+  label: 'Global Village'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /experience
+    negate: false
+    context_mapping: {  }

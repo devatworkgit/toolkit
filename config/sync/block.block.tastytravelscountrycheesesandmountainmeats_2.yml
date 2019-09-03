@@ -1,0 +1,35 @@
+uuid: e5cf4ae2-48af-4730-840b-dc54f10ebd5e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cee6d50c-e696-4c06-a242-a8a53bd18652'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text watch-box'
+id: tastytravelscountrycheesesandmountainmeats_2
+theme: morethanfood
+region: section1
+weight: -27
+provider: null
+plugin: 'block_content:cee6d50c-e696-4c06-a242-a8a53bd18652'
+settings:
+  id: 'block_content:cee6d50c-e696-4c06-a242-a8a53bd18652'
+  label: 'Tasty Travels: Meat and Dairy '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/watch\r\n/more-than-trip"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,19 @@
+uuid: dba4c32f-75be-4778-9abf-91fb62da8435
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_register_zone_for_master
+field_name: field_register_zone_for_master
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

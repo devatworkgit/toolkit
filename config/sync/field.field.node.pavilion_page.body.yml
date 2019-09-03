@@ -1,0 +1,22 @@
+uuid: 32e725fe-86e0-443e-bd0d-ab19908b7ea7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pavilion_page
+  module:
+    - text
+id: node.pavilion_page.body
+field_name: body
+entity_type: node
+bundle: pavilion_page
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

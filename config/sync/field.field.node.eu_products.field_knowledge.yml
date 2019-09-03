@@ -1,0 +1,21 @@
+uuid: e84414fc-7ace-4830-acc8-4e7c9caef447
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_knowledge
+    - node.type.eu_products
+  module:
+    - text
+id: node.eu_products.field_knowledge
+field_name: field_knowledge
+entity_type: node
+bundle: eu_products
+label: 'Practical knowledge/facts and Tips '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

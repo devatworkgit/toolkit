@@ -1,0 +1,21 @@
+uuid: ab74a952-b132-49bd-8f09-cbf1b479fb28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_opening_hours
+    - paragraphs.paragraphs_type.pavilion_about
+  module:
+    - text
+id: paragraph.pavilion_about.field_opening_hours
+field_name: field_opening_hours
+entity_type: paragraph
+bundle: pavilion_about
+label: 'Opening Hours'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

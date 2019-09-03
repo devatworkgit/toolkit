@@ -1,0 +1,40 @@
+uuid: f2119c73-e161-42e0-a8b6-f82fc5fb696e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pavilion_page.body
+    - node.type.pavilion_page
+  module:
+    - text
+    - user
+id: node.pavilion_page.teaser
+targetEntityType: node
+bundle: pavilion_page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_about: true
+  field_banner: true
+  field_banner_text: true
+  field_chefs: true
+  field_cooking_shows_themes: true
+  field_eu_agricultural_food: true
+  field_eup_title: true
+  field_register_zone_for_cooking: true
+  field_register_zone_for_master: true
+  langcode: true

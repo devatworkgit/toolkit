@@ -1,0 +1,14 @@
+uuid: 81d2fdb9-744f-453b-9f6d-9790cac21fa4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: eu_products_
+label: "Eu Products\t"
+type: 'canonical_entities:node'
+pattern: '/discover/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

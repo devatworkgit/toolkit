@@ -1,0 +1,75 @@
+uuid: 1d3f2ce9-df9e-448d-be12-3cfa22f16e0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.document.body
+    - field.field.node.document.field_date
+    - field.field.node.document.field_document
+    - field.field.node.document.field_image
+    - field.field.node.document.field_link
+    - node.type.document
+  module:
+    - datetime
+    - file
+    - image
+    - link
+    - text
+    - user
+id: node.document.default
+targetEntityType: node
+bundle: document
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_document:
+    weight: 3
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link:
+    weight: 4
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

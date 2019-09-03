@@ -1,0 +1,37 @@
+uuid: bc8e0f62-6a81-40e8-88b7-b8a0a38c75e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.instagram_image.field_instagram_image
+    - field.field.paragraph.instagram_image.field_instagram_link
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.instagram_image
+  module:
+    - image
+    - link
+id: paragraph.instagram_image.default
+targetEntityType: paragraph
+bundle: instagram_image
+mode: default
+content:
+  field_instagram_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_instagram_link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

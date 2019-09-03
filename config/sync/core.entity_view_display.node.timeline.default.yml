@@ -1,0 +1,62 @@
+uuid: 75c6b0b4-6a7b-497c-b238-c5ae3524351e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.timeline.field_tasty_travel
+    - field.field.node.timeline.field_timeline_image
+    - field.field.node.timeline.field_weight
+    - field.field.node.timeline.field_youtube_video
+    - node.type.timeline
+  module:
+    - image
+    - options
+    - user
+    - video_embed_field
+id: node.timeline.default
+targetEntityType: node
+bundle: timeline
+mode: default
+content:
+  field_tasty_travel:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_timeline_image:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_weight:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_youtube_video:
+    weight: 104
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

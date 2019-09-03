@@ -1,0 +1,53 @@
+uuid: 8690ae1c-6792-4c00-9743-2a5086f97e49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chefs.field_description
+    - field.field.paragraph.chefs.field_name_surname
+    - field.field.paragraph.chefs.field_position
+    - field.field.paragraph.chefs.field_profile_image
+    - image.style.300x300
+    - paragraphs.paragraphs_type.chefs
+  module:
+    - field_formatter_class
+    - image
+    - text
+id: paragraph.chefs.default
+targetEntityType: paragraph
+bundle: chefs
+mode: default
+content:
+  field_description:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_name_surname:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_position:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_profile_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: 300x300
+      image_link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: image
+    region: content
+hidden: {  }

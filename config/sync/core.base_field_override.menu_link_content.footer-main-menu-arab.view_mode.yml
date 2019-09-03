@@ -1,0 +1,18 @@
+uuid: de0d8ec5-f93e-4cdd-b1b3-c50dde1e023c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-main-menu-arab
+id: menu_link_content.footer-main-menu-arab.view_mode
+field_name: view_mode
+entity_type: menu_link_content
+bundle: footer-main-menu-arab
+label: 'View mode'
+description: 'Per item view mode selector.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

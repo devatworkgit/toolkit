@@ -1,0 +1,25 @@
+uuid: e3be9d79-e5ba-4988-9800-268d7ae31edd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9c5bc55e-d08a-4d07-a45c-998b674132c3'
+  module:
+    - block_content
+  theme:
+    - morethanfood
+id: toporangelogo
+theme: morethanfood
+region: section_top
+weight: 0
+provider: null
+plugin: 'block_content:9c5bc55e-d08a-4d07-a45c-998b674132c3'
+settings:
+  id: 'block_content:9c5bc55e-d08a-4d07-a45c-998b674132c3'
+  label: 'Top orange logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

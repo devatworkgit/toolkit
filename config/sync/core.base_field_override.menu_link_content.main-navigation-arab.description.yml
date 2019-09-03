@@ -1,0 +1,18 @@
+uuid: f5c5477d-fc61-4eac-9253-fdd4d55d2915
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-navigation-arab
+id: menu_link_content.main-navigation-arab.description
+field_name: description
+entity_type: menu_link_content
+bundle: main-navigation-arab
+label: Description
+description: 'Shown when hovering over the menu link.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

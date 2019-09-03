@@ -1,0 +1,30 @@
+uuid: f5f7ce3b-e111-4e19-af19-8c00270703ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.discover_eu_products
+  module:
+    - system
+    - views
+  theme:
+    - morethanfood
+id: views_block__discover_eu_products_block_1
+theme: morethanfood
+region: section1
+weight: -26
+provider: null
+plugin: 'views_block:discover_eu_products-block_1'
+settings:
+  id: 'views_block:discover_eu_products-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /discover
+    negate: false
+    context_mapping: {  }

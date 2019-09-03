@@ -1,0 +1,29 @@
+uuid: 23fa1860-785a-421e-8252-1f6fed5e11af
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.stay_tuned
+  module:
+    - block_class
+    - webform
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'col-xs-12 gray-text'
+id: webform_4
+theme: morethanfood
+region: subscribe
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Stay Tuned'
+  provider: webform
+  label_display: visible
+  webform_id: stay_tuned
+  default_data: ''
+  redirect: false
+visibility: {  }

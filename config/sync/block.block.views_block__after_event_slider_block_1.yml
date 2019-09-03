@@ -1,0 +1,32 @@
+uuid: 1a4a952b-c8be-4102-afc4-89a857e20cf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.after_event_slider
+  module:
+    - ctools
+    - views
+  theme:
+    - morethanfood
+id: views_block__after_event_slider_block_1
+theme: morethanfood
+region: section1
+weight: -19
+provider: null
+plugin: 'views_block:after_event_slider-block_1'
+settings:
+  id: 'views_block:after_event_slider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      after_event: after_event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

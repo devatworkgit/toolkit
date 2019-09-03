@@ -1,0 +1,18 @@
+uuid: e4c10a42-0231-406d-96be-c2d10b11fbfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.instagram_image
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.instagram_image
+target_entity_type_id: paragraph
+target_bundle: instagram_image
+default_langcode: site_default
+language_alterable: true

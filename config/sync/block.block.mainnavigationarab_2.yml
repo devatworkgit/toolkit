@@ -1,0 +1,33 @@
+uuid: ffc59536-de7a-4e31-8b03-bf3847f82b3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-navigation-arab
+  module:
+    - language
+    - system
+  theme:
+    - morethanfood
+id: mainnavigationarab_2
+theme: morethanfood
+region: navigation_bottom
+weight: -33
+provider: null
+plugin: 'system_menu_block:main-navigation-arab'
+settings:
+  id: 'system_menu_block:main-navigation-arab'
+  label: 'Main Navigation Arab'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  language:
+    id: language
+    langcodes:
+      ar: ar
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

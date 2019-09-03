@@ -1,0 +1,29 @@
+uuid: f6a0bbdd-e5f8-4270-8410-d6573b52e7d0
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.tas
+    - field.field.node.tasty_trip.body
+    - field.field.node.tasty_trip.field_banner
+    - field.field.node.tasty_trip.field_map
+    - field.field.node.tasty_trip.field_projects
+    - field.field.node.tasty_trip.field_tasty_travel
+    - field.field.node.tasty_trip.field_trip_location
+    - node.type.tasty_trip
+  module:
+    - user
+id: node.tasty_trip.tas
+targetEntityType: node
+bundle: tasty_trip
+mode: tas
+content: {  }
+hidden:
+  body: true
+  field_banner: true
+  field_map: true
+  field_projects: true
+  field_tasty_travel: true
+  field_trip_location: true
+  langcode: true
+  links: true

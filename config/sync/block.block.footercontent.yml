@@ -1,0 +1,26 @@
+uuid: 22f280f2-5611-4169-83c9-89f0cdec4e5c
+langcode: en
+status: false
+dependencies:
+  module:
+    - block_class
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'col-xs-12 col-sm-9'
+id: footercontent
+theme: morethanfood
+region: footer
+weight: -25
+provider: null
+plugin: 'block_content:e7d5cea2-cc18-4177-ac37-7bb4ffe5a890'
+settings:
+  id: 'block_content:e7d5cea2-cc18-4177-ac37-7bb4ffe5a890'
+  label: 'Footer content'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

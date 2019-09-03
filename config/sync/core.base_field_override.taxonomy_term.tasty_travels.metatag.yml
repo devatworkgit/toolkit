@@ -1,0 +1,18 @@
+uuid: 8f58757b-e1b8-451d-bdb1-1fdc2b24a95f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tasty_travels
+id: taxonomy_term.tasty_travels.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: tasty_travels
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

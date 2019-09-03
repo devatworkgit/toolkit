@@ -1,0 +1,38 @@
+uuid: d8570f07-f8cc-4d5c-b337-d7346c9c19d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.influencer.body
+    - field.field.node.influencer.field_image
+    - field.field.node.influencer.field_social_
+    - node.type.influencer
+  module:
+    - text
+    - user
+id: node.influencer.teaser
+targetEntityType: node
+bundle: influencer
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  field_instgram_images: true
+  field_quote: true
+  field_social_: true
+  field_tasty_travel: true
+  langcode: true

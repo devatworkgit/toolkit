@@ -1,0 +1,18 @@
+uuid: 5700bd42-f56e-41e6-8563-a46a9a1883b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.pavilion_about
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.pavilion_about
+target_entity_type_id: paragraph
+target_bundle: pavilion_about
+default_langcode: site_default
+language_alterable: true

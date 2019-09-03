@@ -1,0 +1,29 @@
+uuid: 9c496b32-92fe-412c-8686-37d5c5eaed49
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e5999e98-fd7c-41a2-8135-563774d2eb70'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: col-xs-12
+id: copyright
+theme: morethanfood
+region: copyright
+weight: 0
+provider: null
+plugin: 'block_content:e5999e98-fd7c-41a2-8135-563774d2eb70'
+settings:
+  id: 'block_content:e5999e98-fd7c-41a2-8135-563774d2eb70'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

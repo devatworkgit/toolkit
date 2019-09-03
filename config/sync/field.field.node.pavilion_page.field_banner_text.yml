@@ -1,0 +1,21 @@
+uuid: d53c141b-aaa7-4dc5-9b7f-3fd19fcfd43f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner_text
+    - node.type.pavilion_page
+  module:
+    - text
+id: node.pavilion_page.field_banner_text
+field_name: field_banner_text
+entity_type: node
+bundle: pavilion_page
+label: 'Banner text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

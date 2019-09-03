@@ -1,0 +1,61 @@
+uuid: 8723a59e-8f6b-4f1e-8802-9639c3c79a84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pavilion_page.body
+    - field.field.node.pavilion_page.field_about
+    - field.field.node.pavilion_page.field_banner
+    - field.field.node.pavilion_page.field_banner_text
+    - field.field.node.pavilion_page.field_chefs
+    - field.field.node.pavilion_page.field_cooking_shows_themes
+    - field.field.node.pavilion_page.field_eu_agricultural_food
+    - field.field.node.pavilion_page.field_eup_title
+    - field.field.node.pavilion_page.field_register_zone_for_cooking
+    - field.field.node.pavilion_page.field_register_zone_for_master
+    - node.type.pavilion_page
+  module:
+    - entity_reference_revisions
+    - field_formatter_class
+    - text
+    - user
+id: node.pavilion_page.default
+targetEntityType: node
+bundle: pavilion_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: col-xs-12
+    region: content
+  field_chefs:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: 'col-xs-12 col-sm-10 col-sm-offset-1'
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_about: true
+  field_banner: true
+  field_banner_text: true
+  field_cooking_shows_themes: true
+  field_eu_agricultural_food: true
+  field_eup_title: true
+  field_register_zone_for_cooking: true
+  field_register_zone_for_master: true
+  langcode: true

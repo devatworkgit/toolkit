@@ -1,0 +1,22 @@
+uuid: de576f0b-d45c-45b9-997e-17a0893ef47b
+langcode: en
+status: true
+dependencies: {  }
+id: after
+name: after
+label: 'After Event'
+weight: -10
+group: ''
+skin: classic
+breakpoints: 0
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    mobileFirst: true
+    dots: true
+    draggable: false
+    lazyLoad: ondemand
+    rows: 3
+    slidesPerRow: 3
+    slidesToShow: 1

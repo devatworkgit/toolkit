@@ -1,0 +1,37 @@
+uuid: aae5b77b-403d-41e9-95ee-422dcf848d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.influencer.body
+    - field.field.node.influencer.field_image
+    - field.field.node.influencer.field_instgram_images
+    - field.field.node.influencer.field_quote
+    - field.field.node.influencer.field_social_
+    - field.field.node.influencer.field_tasty_travel
+    - node.type.influencer
+  module:
+    - image
+    - user
+id: node.influencer.default
+targetEntityType: node
+bundle: influencer
+mode: default
+content:
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_instgram_images: true
+  field_quote: true
+  field_social_: true
+  field_tasty_travel: true
+  langcode: true
+  links: true

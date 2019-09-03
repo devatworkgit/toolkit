@@ -1,0 +1,35 @@
+uuid: 6e12034d-c163-4890-b44a-f398456ad28e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:14264e7d-e45f-425f-adc6-775b42cadd1e'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: container
+id: europeanqualityschemeslogos
+theme: morethanfood
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:14264e7d-e45f-425f-adc6-775b42cadd1e'
+settings:
+  id: 'block_content:14264e7d-e45f-425f-adc6-775b42cadd1e'
+  label: 'European Quality Schemes logos'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/node/46\r\n"
+    negate: false
+    context_mapping: {  }

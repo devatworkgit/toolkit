@@ -1,0 +1,35 @@
+uuid: 50ef5e59-5415-4990-81dc-c1094e9ef781
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e616a136-34f1-4616-aad8-b7767bff6c2a'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'col-xs-12 col-sm-4 gray-text'
+id: itsquality.
+theme: morethanfood
+region: section1
+weight: -30
+provider: null
+plugin: 'block_content:e616a136-34f1-4616-aad8-b7767bff6c2a'
+settings:
+  id: 'block_content:e616a136-34f1-4616-aad8-b7767bff6c2a'
+  label: Quality
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

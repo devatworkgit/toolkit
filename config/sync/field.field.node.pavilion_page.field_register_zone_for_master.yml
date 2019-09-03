@@ -1,0 +1,21 @@
+uuid: 8a477d96-9dd1-4c81-9064-6cdcf07905d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_register_zone_for_master
+    - node.type.pavilion_page
+  module:
+    - text
+id: node.pavilion_page.field_register_zone_for_master
+field_name: field_register_zone_for_master
+entity_type: node
+bundle: pavilion_page
+label: 'Register zone for master class'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

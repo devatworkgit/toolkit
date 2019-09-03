@@ -1,0 +1,10 @@
+display:
+  default:
+    display_options:
+      fields:
+        title:
+          label: العنوان
+      filters:
+        title:
+          expose:
+            label: العنوان

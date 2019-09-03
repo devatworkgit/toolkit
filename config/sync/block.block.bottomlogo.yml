@@ -1,0 +1,29 @@
+uuid: 4ece4c1a-3d00-48b2-9cf9-5572ef8292da
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3373d530-196d-4708-a7a6-581877cfb0c3'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: col-md-3
+id: bottomlogo
+theme: morethanfood
+region: footer_bottom
+weight: -33
+provider: null
+plugin: 'block_content:3373d530-196d-4708-a7a6-581877cfb0c3'
+settings:
+  id: 'block_content:3373d530-196d-4708-a7a6-581877cfb0c3'
+  label: 'Bottom logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

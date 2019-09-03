@@ -1,0 +1,15 @@
+uuid: 933344d3-7b47-4667-840b-bad3f55eb1d3
+langcode: en
+status: true
+dependencies: {  }
+name: 300x300
+label: 300x300
+effects:
+  ce7acc81-8860-4eff-bf21-138390495f49:
+    uuid: ce7acc81-8860-4eff-bf21-138390495f49
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

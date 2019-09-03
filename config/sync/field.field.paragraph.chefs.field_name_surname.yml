@@ -1,0 +1,21 @@
+uuid: 7df1930a-c291-4fb0-b9ec-efd6ea01fe3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_name_surname
+    - paragraphs.paragraphs_type.chefs
+  module:
+    - text
+id: paragraph.chefs.field_name_surname
+field_name: field_name_surname
+entity_type: paragraph
+bundle: chefs
+label: 'Name & Surname'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

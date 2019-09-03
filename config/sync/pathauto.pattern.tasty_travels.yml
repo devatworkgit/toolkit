@@ -1,0 +1,14 @@
+uuid: 08a2a44b-49a3-4504-a5dc-188276fd5170
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: tasty_travels
+label: 'Tasty travels'
+type: 'canonical_entities:node'
+pattern: '/more-than-trip/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

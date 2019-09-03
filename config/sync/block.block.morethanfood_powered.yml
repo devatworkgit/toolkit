@@ -1,0 +1,22 @@
+uuid: 0b4e7667-7b5d-4a7e-b8f9-91edc0a0e66f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - morethanfood
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: morethanfood_powered
+theme: morethanfood
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

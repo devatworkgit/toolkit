@@ -1,0 +1,18 @@
+uuid: 069689eb-d832-4aff-8246-91bbc1877e39
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main-navigation-arab
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: menu_link_content.main-navigation-arab
+target_entity_type_id: menu_link_content
+target_bundle: main-navigation-arab
+default_langcode: site_default
+language_alterable: false

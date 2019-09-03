@@ -1,0 +1,11 @@
+uuid: 97d5d7dc-1616-402b-a9d1-07bb9194abec
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:1ac3cf41-520b-46eb-bd50-e0d3fd463e89'
+id: chefs
+label: Chefs
+icon_uuid: 1ac3cf41-520b-46eb-bd50-e0d3fd463e89
+description: ''
+behavior_plugins: {  }

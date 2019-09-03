@@ -1,0 +1,22 @@
+uuid: 0879bc61-cd01-4012-96c5-9b3321965cd2
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tasty_travels
+id: taxonomy_term.tasty_travels.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tasty_travels
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,120 @@
+uuid: f6d9fe03-cbf7-4622-a0b5-95ea3d537156
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+    - system
+  theme:
+    - morethanfood
+id: socialmedialinks
+theme: morethanfood
+region: section3
+weight: -14
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: '0'
+  platforms:
+    youtube:
+      value: test
+      description: ''
+      weight: '-30'
+    twitter:
+      value: test
+      description: ''
+      weight: '-29'
+    instagram:
+      value: test
+      description: ''
+      weight: '-28'
+    facebook:
+      value: test
+      description: ''
+      weight: '-27'
+    behance:
+      value: ''
+      description: ''
+      weight: '-26'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '-25'
+    contact:
+      value: ''
+      description: ''
+      weight: '-24'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-23'
+    email:
+      value: ''
+      description: ''
+      weight: '-22'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-21'
+    github:
+      value: ''
+      description: ''
+      weight: '-20'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-19'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '-18'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '-17'
+    rss:
+      value: ''
+      description: ''
+      weight: '-16'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-15'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-14'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-13'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-12'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '-11'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: _blank
+    rel: '<none>'
+  iconset:
+    style: 'elegantthemes:32'
+    installed_iconsets:
+      elegantthemes:
+        examples: ''
+      fontawesome:
+        examples: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /test
+    negate: false
+    context_mapping: {  }

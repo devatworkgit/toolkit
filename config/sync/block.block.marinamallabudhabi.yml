@@ -1,0 +1,35 @@
+uuid: 813bd6fa-df79-4fd9-b1d6-892317b6c6a8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:41ba09e1-2c3b-4456-9a9d-bbae73ccfd17'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text watch-box'
+id: marinamallabudhabi
+theme: morethanfood
+region: section1
+weight: -21
+provider: null
+plugin: 'block_content:41ba09e1-2c3b-4456-9a9d-bbae73ccfd17'
+settings:
+  id: 'block_content:41ba09e1-2c3b-4456-9a9d-bbae73ccfd17'
+  label: 'Marina Mall Abu Dhabi '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /experience
+    negate: false
+    context_mapping: {  }

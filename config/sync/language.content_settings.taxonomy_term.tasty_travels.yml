@@ -1,0 +1,18 @@
+uuid: 6c1f1096-13d0-42bc-a57e-59e84d0da393
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tasty_travels
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.tasty_travels
+target_entity_type_id: taxonomy_term
+target_bundle: tasty_travels
+default_langcode: site_default
+language_alterable: false

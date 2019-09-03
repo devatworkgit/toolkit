@@ -1,0 +1,35 @@
+uuid: 770fa32c-4842-48d2-923d-42f8aa34dcba
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1d79bc09-290c-4444-856e-2b1804582dcf'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'col-xs-12 col-sm-4 gray-text'
+id: itssafe.
+theme: morethanfood
+region: section1
+weight: -31
+provider: null
+plugin: 'block_content:1d79bc09-290c-4444-856e-2b1804582dcf'
+settings:
+  id: 'block_content:1d79bc09-290c-4444-856e-2b1804582dcf'
+  label: Safety
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

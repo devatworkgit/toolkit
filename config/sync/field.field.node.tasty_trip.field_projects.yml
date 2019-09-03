@@ -1,0 +1,28 @@
+uuid: 5878082d-1748-4d60-8bfd-8d80d96f99ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_projects
+    - node.type.eu_products
+    - node.type.tasty_trip
+id: node.tasty_trip.field_projects
+field_name: field_projects
+entity_type: node
+bundle: tasty_trip
+label: Products
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      eu_products: eu_products
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

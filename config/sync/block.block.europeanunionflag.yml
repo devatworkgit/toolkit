@@ -1,0 +1,29 @@
+uuid: f941bc64-86de-4ca6-b4ca-2df94c1834d8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6bdea437-d533-47fb-8208-a42217c90fc2'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: hidden-xs
+id: europeanunionflag
+theme: morethanfood
+region: section_top
+weight: 0
+provider: null
+plugin: 'block_content:6bdea437-d533-47fb-8208-a42217c90fc2'
+settings:
+  id: 'block_content:6bdea437-d533-47fb-8208-a42217c90fc2'
+  label: 'European Union Flag'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,35 @@
+uuid: 4b969829-6fc1-4b1a-a920-02ac1a0aa2ee
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:206cf582-7b7e-4a43-a38e-cfd3c9481810'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text watch-box'
+id: discoveringeuropeanunionconfectioneryanddesserts
+theme: morethanfood
+region: section1
+weight: -29
+provider: null
+plugin: 'block_content:206cf582-7b7e-4a43-a38e-cfd3c9481810'
+settings:
+  id: 'block_content:206cf582-7b7e-4a43-a38e-cfd3c9481810'
+  label: 'Tasty Travels: Chocolate and Family Care '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/watch\r\n/more-than-trip"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,19 @@
+uuid: 91b85bb5-5f62-442a-b76f-3fd9d3fd3581
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_trip_location
+    - node.type.tasty_trip
+id: node.tasty_trip.field_trip_location
+field_name: field_trip_location
+entity_type: node
+bundle: tasty_trip
+label: 'Trip Location'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

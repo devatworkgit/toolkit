@@ -1,0 +1,40 @@
+uuid: f2afc5da-93cc-4dfa-b0c8-575a3f1ae5a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chefs
+    - node.type.pavilion_page
+    - paragraphs.paragraphs_type.chefs
+  module:
+    - entity_reference_revisions
+id: node.pavilion_page.field_chefs
+field_name: field_chefs
+entity_type: node
+bundle: pavilion_page
+label: Chefs
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      chefs: chefs
+    target_bundles_drag_drop:
+      instagram_image:
+        weight: 2
+        enabled: false
+      chefs:
+        enabled: true
+        weight: 3
+      pavilion_about:
+        weight: 7
+        enabled: false
+      pavilion_image_with_text_and_lin:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

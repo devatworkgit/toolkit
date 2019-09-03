@@ -1,0 +1,21 @@
+uuid: 2f32e364-5df7-4c6c-a1ba-3020285400b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_register_zone_for_cooking
+    - node.type.pavilion_page
+  module:
+    - text
+id: node.pavilion_page.field_register_zone_for_cooking
+field_name: field_register_zone_for_cooking
+entity_type: node
+bundle: pavilion_page
+label: 'Register zone for cooking show'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

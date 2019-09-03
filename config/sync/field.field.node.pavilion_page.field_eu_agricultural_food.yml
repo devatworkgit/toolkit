@@ -1,0 +1,40 @@
+uuid: b619dd03-059b-4de0-9bbf-046020730407
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eu_agricultural_food
+    - node.type.pavilion_page
+    - paragraphs.paragraphs_type.pavilion_image_with_text_and_lin
+  module:
+    - entity_reference_revisions
+id: node.pavilion_page.field_eu_agricultural_food
+field_name: field_eu_agricultural_food
+entity_type: node
+bundle: pavilion_page
+label: 'EU agricultural food'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      pavilion_image_with_text_and_lin: pavilion_image_with_text_and_lin
+    target_bundles_drag_drop:
+      pavilion_image_with_text_and_lin:
+        enabled: true
+        weight: 4
+      chefs:
+        weight: 5
+        enabled: false
+      instagram_image:
+        weight: 6
+        enabled: false
+      pavilion_about:
+        weight: 7
+        enabled: false
+field_type: entity_reference_revisions

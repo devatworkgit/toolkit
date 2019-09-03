@@ -1,0 +1,27 @@
+uuid: 8e976d8e-9779-4312-94de-3e3bb11efb69
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - oe_theme
+_core:
+  default_config_hash: rpSSgOcLwXjxice5LeGLhEKmp0DyiNB4jdYOOP1eRjg
+id: oe_theme_main_navigation
+theme: oe_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

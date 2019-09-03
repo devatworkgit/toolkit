@@ -1,0 +1,35 @@
+uuid: 2bb80c0e-b72f-436d-9299-a5710f46298a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bc3b539c-356c-4e0d-9729-7ebdf3087c29'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text watch-box'
+id: hotelshow
+theme: morethanfood
+region: section1
+weight: -20
+provider: null
+plugin: 'block_content:bc3b539c-356c-4e0d-9729-7ebdf3087c29'
+settings:
+  id: 'block_content:bc3b539c-356c-4e0d-9729-7ebdf3087c29'
+  label: 'Hotel Show'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /b2b
+    negate: false
+    context_mapping: {  }

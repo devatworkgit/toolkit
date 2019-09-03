@@ -1,0 +1,36 @@
+uuid: 1236712c-de0a-4f6c-9a12-0aca4c3bbfb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tasty_trip.body
+    - node.type.tasty_trip
+  module:
+    - text
+    - user
+id: node.tasty_trip.teaser
+targetEntityType: node
+bundle: tasty_trip
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_banner: true
+  field_map: true
+  field_projects: true
+  field_tasty_travel: true
+  field_trip_location: true
+  langcode: true

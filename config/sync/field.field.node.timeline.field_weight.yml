@@ -1,0 +1,21 @@
+uuid: 8876d9ac-b0d9-4b9e-bcf0-6ca24078ec49
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weight
+    - node.type.timeline
+  module:
+    - options
+id: node.timeline.field_weight
+field_name: field_weight
+entity_type: node
+bundle: timeline
+label: Weight
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

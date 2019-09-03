@@ -1,0 +1,35 @@
+uuid: 9ff8097d-86d7-4a1b-8e79-c4b8f2e446df
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:82990206-06c4-491e-835e-e640d939c924'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: 'gray-text watch-box'
+id: virtualrealityandtasting
+theme: morethanfood
+region: section1
+weight: -23
+provider: null
+plugin: 'block_content:82990206-06c4-491e-835e-e640d939c924'
+settings:
+  id: 'block_content:82990206-06c4-491e-835e-e640d939c924'
+  label: 'Virtual Reality and tasting '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /experience
+    negate: false
+    context_mapping: {  }

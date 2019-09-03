@@ -1,0 +1,43 @@
+uuid: b23a7fad-10b5-4f35-9bfa-1d337da4c000
+langcode: en
+status: false
+dependencies:
+  enforced:
+    module:
+      - slick
+_core:
+  default_config_hash: Zyx4BsKtbNFnRU7WTHAF0DGHMenI0b_Czn4dwl1bQTc
+id: eu_products_ltr
+name: eu_products_ltr
+label: 'Eu Products LTR'
+weight: -10
+group: main
+skin: classic
+breakpoints: 1
+optimized: true
+options:
+  options__active_tab: edit-options-responsives
+  settings:
+    mobileFirst: true
+    autoplay: true
+    arrows: false
+    dots: true
+    draggable: false
+    infinite: false
+    lazyLoad: ondemand
+    slidesToShow: 1
+    swipeToSlide: true
+  responsives:
+    responsive:
+      -
+        breakpoint: 768
+        unslick: false
+        settings:
+          autoplay: true
+          pauseOnHover: false
+          dots: true
+          draggable: false
+          infinite: false
+          slidesToShow: 2
+          swipeToSlide: true
+          touchMove: false

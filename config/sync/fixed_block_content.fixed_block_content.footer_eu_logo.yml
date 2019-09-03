@@ -1,0 +1,10 @@
+uuid: dece3f5f-f008-42f2-8284-09d56ee62652
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+id: footer_eu_logo
+title: 'Footer Eu logo'
+block_content_bundle: basic
+default_content: null

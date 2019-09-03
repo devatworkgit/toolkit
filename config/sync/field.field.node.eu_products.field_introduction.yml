@@ -1,0 +1,21 @@
+uuid: 90df3b66-8c2c-46dd-98dd-86b1524e7d55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_introduction
+    - node.type.eu_products
+  module:
+    - text
+id: node.eu_products.field_introduction
+field_name: field_introduction
+entity_type: node
+bundle: eu_products
+label: 'Overarching / introduction '
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,31 @@
+uuid: fd5b47f3-4889-4363-ac73-caacd67d9525
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.registration_form_for_master_cla
+  module:
+    - system
+    - webform
+  theme:
+    - morethanfood
+id: webform_3
+theme: morethanfood
+region: content
+weight: -31
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: registration_form_for_master_cla
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/master-classes-registration\r\n/node/65"
+    negate: false
+    context_mapping: {  }

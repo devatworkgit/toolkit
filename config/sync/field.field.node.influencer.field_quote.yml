@@ -1,0 +1,19 @@
+uuid: c3aa3f13-4e3b-45ab-b1e1-e9560f1e47c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quote
+    - node.type.influencer
+id: node.influencer.field_quote
+field_name: field_quote
+entity_type: node
+bundle: influencer
+label: Quote
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

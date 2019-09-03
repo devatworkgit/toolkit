@@ -1,0 +1,31 @@
+uuid: 3db710df-3001-47b4-9175-9b709cabd6d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.registration_form_for_cooking_sh
+  module:
+    - system
+    - webform
+  theme:
+    - morethanfood
+id: webform_2
+theme: morethanfood
+region: content
+weight: -32
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Webform
+  provider: webform
+  label_display: '0'
+  webform_id: registration_form_for_cooking_sh
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/cooking-shows-registration\r\n/node/63"
+    negate: false
+    context_mapping: {  }

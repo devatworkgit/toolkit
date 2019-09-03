@@ -1,0 +1,38 @@
+uuid: dc3e5cf5-a7c3-48e0-85bc-b19c119bb4c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.home_slider
+  module:
+    - language
+    - system
+    - views
+  theme:
+    - morethanfood
+id: views_block__home_slider_block_1
+theme: morethanfood
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:home_slider-block_1'
+settings:
+  id: 'views_block:home_slider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  language:
+    id: language
+    langcodes:
+      ar: ar
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

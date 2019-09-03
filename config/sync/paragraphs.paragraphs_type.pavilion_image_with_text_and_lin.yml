@@ -1,0 +1,9 @@
+uuid: 789160bf-c3ef-46af-be05-4b41affaaeee
+langcode: en
+status: true
+dependencies: {  }
+id: pavilion_image_with_text_and_lin
+label: 'Pavilion image with text and link'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

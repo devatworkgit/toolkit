@@ -1,0 +1,21 @@
+uuid: d6f25b7b-9337-44d2-a308-096dc4cbaf34
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_social_
+    - node.type.influencer
+  module:
+    - social_profile_field
+id: node.influencer.field_social_
+field_name: field_social_
+entity_type: node
+bundle: influencer
+label: 'Social profiles'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: social_profile_url

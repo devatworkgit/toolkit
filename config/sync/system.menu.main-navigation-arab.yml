@@ -1,0 +1,8 @@
+uuid: 5fc96cb8-34e8-42ae-854a-992d31e978d8
+langcode: ar
+status: true
+dependencies: {  }
+id: main-navigation-arab
+label: 'Main Navigation Arab'
+description: ''
+locked: false

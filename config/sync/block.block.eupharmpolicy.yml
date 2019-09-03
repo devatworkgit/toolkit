@@ -1,0 +1,43 @@
+uuid: 1a19bdff-d7d3-4535-a291-9e8fc7ed4e16
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8ecbce01-b1cf-4c2a-8e92-7bc939bf918f'
+  module:
+    - block_class
+    - block_content
+    - system
+    - user
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: gray-text
+id: eupharmpolicy
+theme: morethanfood
+region: section_gray
+weight: 0
+provider: null
+plugin: 'block_content:8ecbce01-b1cf-4c2a-8e92-7bc939bf918f'
+settings:
+  id: 'block_content:8ecbce01-b1cf-4c2a-8e92-7bc939bf918f'
+  label: 'Eu pharm policy'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /about
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -1,0 +1,22 @@
+uuid: 33aac898-eee6-45f9-9d89-c6722f9b929c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.influencer
+  module:
+    - text
+id: node.influencer.body
+field_name: body
+entity_type: node
+bundle: influencer
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

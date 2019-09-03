@@ -1,0 +1,8 @@
+uuid: 91d0af95-9baa-4327-9372-0652cc9a2e53
+langcode: ar
+status: true
+dependencies: {  }
+id: footer-main-menu-arab
+label: 'Footer main menu arab'
+description: ''
+locked: false

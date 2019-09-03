@@ -1,0 +1,15 @@
+display:
+  default:
+    display_options:
+      fields:
+        info:
+          label: 'وصف الصندوق'
+        type:
+          label: 'نوع الصندوق'
+      filters:
+        info:
+          expose:
+            label: 'وصف الصندوق'
+        type:
+          expose:
+            label: 'نوع الصندوق'

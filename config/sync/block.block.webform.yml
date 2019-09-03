@@ -1,0 +1,35 @@
+uuid: 99458b80-8ee3-4f00-9a65-edc412e87848
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact_us
+  module:
+    - block_class
+    - system
+    - webform
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: gray-text
+id: webform
+theme: morethanfood
+region: content
+weight: -33
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Contact us'
+  provider: webform
+  label_display: visible
+  webform_id: contact_us
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: /get-in-touch
+    negate: false
+    context_mapping: {  }

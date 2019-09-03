@@ -1,0 +1,24 @@
+uuid: ef404b80-8134-4a11-94f1-a98081ec2007
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - language
+  theme:
+    - morethanfood
+third_party_settings:
+  block_class:
+    classes: pull-right
+id: languageswitcher
+theme: morethanfood
+region: navigation_collapsible
+weight: -31
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

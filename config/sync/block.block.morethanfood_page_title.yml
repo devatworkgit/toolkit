@@ -1,0 +1,44 @@
+uuid: 0a03557f-0c78-4fdf-9df6-7832433dff67
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - morethanfood
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: morethanfood_page_title
+theme: morethanfood
+region: header
+weight: -34
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      document: document
+      event: event
+      homepage_slider: homepage_slider
+      influencer: influencer
+      news: news
+      simplenews_issue: simplenews_issue
+      story: story
+      timeline: timeline
+      webform: webform
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/about\r\n/follow-us\r\n/experience\r\n/watch\r\n/press\r\n/offer\r\n/discover\r\n/privacy-statement\r\n/legal"
+    negate: true
+    context_mapping: {  }

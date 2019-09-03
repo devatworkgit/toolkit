@@ -1,0 +1,110 @@
+{
+    "name": "openeuropa/openeuropa",
+    "description": "A website built on the OpenEuropa platform.",
+    "type": "project",
+    "license": "EUPL-1.2",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.1",
+        "composer/installers": "^1.5",
+        "cweagans/composer-patches": "^1.0",
+        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/admin_toolbar": "^1.27",
+        "drupal/blazy": "^2.0",
+        "drupal/block_class": "1.0",
+        "drupal/captcha": "^1.0",
+        "drupal/colorbox": "^1.4",
+        "drupal/core": "^8.7",
+        "drupal/ctools": "^3.2",
+        "drupal/entity_reference_revisions": "^1.6",
+        "drupal/eu_cookie_compliance": "^1.8",
+        "drupal/field_formatter_class": "^1.1",
+        "drupal/fixed_block_content": "^1.0",
+        "drupal/google_analytics": "^2.4",
+        "drupal/instawidget": "^1.0",
+        "drupal/matomo": "^1.9",
+        "drupal/menu_item_extras": "^2.7",
+        "drupal/metatag": "^1.9",
+        "drupal/paragraphs": "^1.9",
+        "drupal/pathauto": "^1.4",
+        "drupal/recaptcha": "^2.4",
+        "drupal/recreate_block_content": "^2.0",
+        "drupal/slick_views": "^2.0",
+        "drupal/social_media_links": "^2.6",
+        "drupal/social_profile_field": "^0.2",
+        "drupal/style_management": "^1.1",
+        "drupal/video_embed_field": "^2.2",
+        "drupal/webform": "^5.4",
+        "drush/drush": "^9.0",
+        "openeuropa/composer-artifacts": "~0.1",
+        "openeuropa/oe_profile": "^0.3",
+        "openeuropa/oe_theme": "^1.0",
+        "oyejorge/less.php": "1.7.0.*",
+        "webflo/drupal-finder": "^1.0",
+        "webmozart/path-util": "^2.3"
+    },
+    "require-dev": {
+        "drupal/console": "~1.6",
+        "drupal/drupal-extension": "~4.0",
+        "ec-europa/toolkit": "~4.0.0-beta4",
+        "webflo/drupal-core-require-dev": "~8.7"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+        ]
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "extra": {
+        "artifacts": {
+            "openeuropa/oe_theme": {
+                "dist": {
+                    "url": "https://github.com/{name}/releases/download/{pretty-version}/{project-name}-{pretty-version}.tar.gz",
+                    "type": "tar"
+                }
+            }
+        },
+        "composer-exit-on-patch-failure": true,
+        "enable-patching": true,
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ]
+        },
+        "grumphp": {
+            "config-default-path": "vendor/ec-europa/qa-automation/dist/qa-conventions.yml"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OpenEuropa\\Site\\Tests\\": "./tests/"
+        }
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.1.9"
+        }
+    }
+}

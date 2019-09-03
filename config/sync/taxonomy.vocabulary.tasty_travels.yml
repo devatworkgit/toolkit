@@ -1,0 +1,8 @@
+uuid: 3f4ee335-9354-4a99-a28d-c0ce9e91f146
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tasty travels'
+vid: tasty_travels
+description: ''
+weight: 0
